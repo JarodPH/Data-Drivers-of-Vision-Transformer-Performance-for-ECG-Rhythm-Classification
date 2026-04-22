@@ -1,0 +1,14 @@
+Running in EVAL-ONLY mode
+Loading selected checkpoint: out/c04-w10-1536/epoch_19.pt
+
+Eval Results:
+  Val Loss: 0.0750
+  Val Acc:  97.82%
+  Precision: 0.9782 | Recall: 0.9782 | F1: 0.9782
+
+  Per-Class Metrics:
+    Class 0: Precision 0.981  Recall 0.966  F1 0.973
+    Class 1: Precision 0.986  Recall 0.986  F1 0.986
+    Class 2: Precision 0.964  Recall 0.963  F1 0.963
+    Class 3: Precision 0.982  Recall 0.998  F1 0.990
+

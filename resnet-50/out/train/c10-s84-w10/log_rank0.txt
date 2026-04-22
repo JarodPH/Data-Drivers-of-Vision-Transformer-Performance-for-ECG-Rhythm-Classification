@@ -1,0 +1,1701 @@
+
+Epoch 1:
+  Train Loss: 0.7424 | Train Acc: 74.02%
+  Val Loss:   0.5635 | Val Acc:   82.03%
+  Precision:  0.8248 | Recall: 0.8203 | F1: 0.8195
+
+  Class 0: Precision 0.795  Recall 0.762  F1 0.778
+  Class 1: Precision 0.892  Recall 0.978  F1 0.933
+  Class 2: Precision 0.766  Recall 0.615  F1 0.682
+  Class 3: Precision 0.907  Recall 0.878  F1 0.892
+  Class 4: Precision 0.801  Recall 0.725  F1 0.761
+  Class 5: Precision 0.717  Recall 0.840  F1 0.774
+  Class 6: Precision 0.636  Recall 0.758  F1 0.692
+  Class 7: Precision 0.868  Recall 0.748  F1 0.804
+  Class 8: Precision 0.975  Recall 0.910  F1 0.941
+  Class 9: Precision 0.890  Recall 0.988  F1 0.937
+
+
+Epoch 2:
+  Train Loss: 0.4711 | Train Acc: 84.58%
+  Val Loss:   0.4516 | Val Acc:   86.23%
+  Precision:  0.8672 | Recall: 0.8623 | F1: 0.8616
+
+  Class 0: Precision 0.891  Recall 0.828  F1 0.858
+  Class 1: Precision 0.918  Recall 0.967  F1 0.942
+  Class 2: Precision 0.753  Recall 0.815  F1 0.783
+  Class 3: Precision 0.883  Recall 0.983  F1 0.931
+  Class 4: Precision 0.886  Recall 0.842  F1 0.863
+  Class 5: Precision 0.844  Recall 0.660  F1 0.741
+  Class 6: Precision 0.692  Recall 0.860  F1 0.767
+  Class 7: Precision 0.876  Recall 0.755  F1 0.811
+  Class 8: Precision 0.986  Recall 0.948  F1 0.967
+  Class 9: Precision 0.943  Recall 0.965  F1 0.954
+
+
+Epoch 3:
+  Train Loss: 0.4306 | Train Acc: 86.05%
+  Val Loss:   0.5020 | Val Acc:   84.53%
+  Precision:  0.8503 | Recall: 0.8453 | F1: 0.8443
+
+  Class 0: Precision 0.831  Recall 0.778  F1 0.804
+  Class 1: Precision 0.973  Recall 0.917  F1 0.944
+  Class 2: Precision 0.792  Recall 0.738  F1 0.764
+  Class 3: Precision 0.881  Recall 0.978  F1 0.927
+  Class 4: Precision 0.924  Recall 0.745  F1 0.825
+  Class 5: Precision 0.690  Recall 0.880  F1 0.774
+  Class 6: Precision 0.753  Recall 0.632  F1 0.687
+  Class 7: Precision 0.758  Recall 0.852  F1 0.802
+  Class 8: Precision 0.966  Recall 0.958  F1 0.962
+  Class 9: Precision 0.933  Recall 0.975  F1 0.954
+
+
+Epoch 4:
+  Train Loss: 0.3949 | Train Acc: 87.23%
+  Val Loss:   0.4009 | Val Acc:   86.88%
+  Precision:  0.8696 | Recall: 0.8688 | F1: 0.8683
+
+  Class 0: Precision 0.901  Recall 0.792  F1 0.843
+  Class 1: Precision 0.932  Recall 0.962  F1 0.947
+  Class 2: Precision 0.796  Recall 0.782  F1 0.789
+  Class 3: Precision 0.947  Recall 0.930  F1 0.939
+  Class 4: Precision 0.837  Recall 0.872  F1 0.854
+  Class 5: Precision 0.800  Recall 0.755  F1 0.777
+  Class 6: Precision 0.750  Recall 0.837  F1 0.791
+  Class 7: Precision 0.853  Recall 0.812  F1 0.832
+  Class 8: Precision 0.931  Recall 0.973  F1 0.952
+  Class 9: Precision 0.947  Recall 0.975  F1 0.961
+
+
+Epoch 5:
+  Train Loss: 0.3802 | Train Acc: 87.73%
+  Val Loss:   0.4269 | Val Acc:   85.85%
+  Precision:  0.8618 | Recall: 0.8585 | F1: 0.8575
+
+  Class 0: Precision 0.867  Recall 0.847  F1 0.857
+  Class 1: Precision 0.945  Recall 0.950  F1 0.948
+  Class 2: Precision 0.754  Recall 0.705  F1 0.729
+  Class 3: Precision 0.896  Recall 0.973  F1 0.933
+  Class 4: Precision 0.790  Recall 0.882  F1 0.833
+  Class 5: Precision 0.718  Recall 0.882  F1 0.791
+  Class 6: Precision 0.835  Recall 0.693  F1 0.758
+  Class 7: Precision 0.890  Recall 0.745  F1 0.811
+  Class 8: Precision 0.966  Recall 0.938  F1 0.952
+  Class 9: Precision 0.957  Recall 0.970  F1 0.964
+
+
+Epoch 6:
+  Train Loss: 0.3601 | Train Acc: 88.30%
+  Val Loss:   0.3931 | Val Acc:   87.77%
+  Precision:  0.8789 | Recall: 0.8777 | F1: 0.8770
+
+  Class 0: Precision 0.843  Recall 0.868  F1 0.856
+  Class 1: Precision 0.949  Recall 0.953  F1 0.951
+  Class 2: Precision 0.886  Recall 0.723  F1 0.796
+  Class 3: Precision 0.913  Recall 0.947  F1 0.930
+  Class 4: Precision 0.860  Recall 0.857  F1 0.858
+  Class 5: Precision 0.822  Recall 0.760  F1 0.790
+  Class 6: Precision 0.736  Recall 0.830  F1 0.780
+  Class 7: Precision 0.863  Recall 0.882  F1 0.872
+  Class 8: Precision 0.960  Recall 0.972  F1 0.966
+  Class 9: Precision 0.958  Recall 0.985  F1 0.971
+
+
+Epoch 7:
+  Train Loss: 0.3458 | Train Acc: 88.99%
+  Val Loss:   0.4547 | Val Acc:   85.53%
+  Precision:  0.8560 | Recall: 0.8553 | F1: 0.8538
+
+  Class 0: Precision 0.809  Recall 0.857  F1 0.832
+  Class 1: Precision 0.926  Recall 0.973  F1 0.949
+  Class 2: Precision 0.827  Recall 0.820  F1 0.823
+  Class 3: Precision 0.917  Recall 0.962  F1 0.939
+  Class 4: Precision 0.786  Recall 0.847  F1 0.815
+  Class 5: Precision 0.833  Recall 0.630  F1 0.717
+  Class 6: Precision 0.667  Recall 0.705  F1 0.686
+  Class 7: Precision 0.880  Recall 0.832  F1 0.855
+  Class 8: Precision 0.969  Recall 0.942  F1 0.955
+  Class 9: Precision 0.946  Recall 0.987  F1 0.966
+
+
+Epoch 8:
+  Train Loss: 0.3375 | Train Acc: 88.97%
+  Val Loss:   0.4307 | Val Acc:   86.82%
+  Precision:  0.8735 | Recall: 0.8682 | F1: 0.8677
+
+  Class 0: Precision 0.761  Recall 0.867  F1 0.811
+  Class 1: Precision 0.914  Recall 0.975  F1 0.944
+  Class 2: Precision 0.854  Recall 0.812  F1 0.832
+  Class 3: Precision 0.896  Recall 0.967  F1 0.930
+  Class 4: Precision 0.919  Recall 0.797  F1 0.854
+  Class 5: Precision 0.716  Recall 0.880  F1 0.790
+  Class 6: Precision 0.849  Recall 0.677  F1 0.753
+  Class 7: Precision 0.892  Recall 0.822  F1 0.855
+  Class 8: Precision 0.959  Recall 0.963  F1 0.961
+  Class 9: Precision 0.974  Recall 0.923  F1 0.948
+
+
+Epoch 9:
+  Train Loss: 0.3275 | Train Acc: 89.36%
+  Val Loss:   0.4014 | Val Acc:   88.10%
+  Precision:  0.8800 | Recall: 0.8810 | F1: 0.8801
+
+  Class 0: Precision 0.858  Recall 0.823  F1 0.840
+  Class 1: Precision 0.926  Recall 0.973  F1 0.949
+  Class 2: Precision 0.847  Recall 0.810  F1 0.828
+  Class 3: Precision 0.924  Recall 0.968  F1 0.945
+  Class 4: Precision 0.910  Recall 0.845  F1 0.876
+  Class 5: Precision 0.809  Recall 0.797  F1 0.803
+  Class 6: Precision 0.784  Recall 0.788  F1 0.786
+  Class 7: Precision 0.862  Recall 0.857  F1 0.860
+  Class 8: Precision 0.937  Recall 0.965  F1 0.951
+  Class 9: Precision 0.944  Recall 0.983  F1 0.963
+
+
+Epoch 10:
+  Train Loss: 0.3065 | Train Acc: 90.09%
+  Val Loss:   0.3860 | Val Acc:   87.57%
+  Precision:  0.8769 | Recall: 0.8757 | F1: 0.8756
+
+  Class 0: Precision 0.873  Recall 0.812  F1 0.841
+  Class 1: Precision 0.934  Recall 0.960  F1 0.947
+  Class 2: Precision 0.845  Recall 0.775  F1 0.809
+  Class 3: Precision 0.934  Recall 0.947  F1 0.940
+  Class 4: Precision 0.885  Recall 0.832  F1 0.857
+  Class 5: Precision 0.758  Recall 0.852  F1 0.802
+  Class 6: Precision 0.760  Recall 0.795  F1 0.777
+  Class 7: Precision 0.869  Recall 0.840  F1 0.854
+  Class 8: Precision 0.956  Recall 0.975  F1 0.965
+  Class 9: Precision 0.956  Recall 0.970  F1 0.963
+
+
+Epoch 11:
+  Train Loss: 0.3086 | Train Acc: 89.89%
+  Val Loss:   0.3924 | Val Acc:   87.93%
+  Precision:  0.8827 | Recall: 0.8793 | F1: 0.8793
+
+  Class 0: Precision 0.876  Recall 0.833  F1 0.854
+  Class 1: Precision 0.937  Recall 0.962  F1 0.949
+  Class 2: Precision 0.865  Recall 0.788  F1 0.825
+  Class 3: Precision 0.944  Recall 0.932  F1 0.938
+  Class 4: Precision 0.886  Recall 0.858  F1 0.872
+  Class 5: Precision 0.720  Recall 0.907  F1 0.802
+  Class 6: Precision 0.808  Recall 0.713  F1 0.758
+  Class 7: Precision 0.854  Recall 0.877  F1 0.865
+  Class 8: Precision 0.965  Recall 0.967  F1 0.966
+  Class 9: Precision 0.973  Recall 0.957  F1 0.965
+
+
+Epoch 12:
+  Train Loss: 0.2916 | Train Acc: 90.58%
+  Val Loss:   0.3902 | Val Acc:   87.47%
+  Precision:  0.8765 | Recall: 0.8747 | F1: 0.8738
+
+  Class 0: Precision 0.921  Recall 0.802  F1 0.857
+  Class 1: Precision 0.908  Recall 0.985  F1 0.945
+  Class 2: Precision 0.833  Recall 0.783  F1 0.808
+  Class 3: Precision 0.934  Recall 0.967  F1 0.950
+  Class 4: Precision 0.849  Recall 0.883  F1 0.866
+  Class 5: Precision 0.818  Recall 0.703  F1 0.756
+  Class 6: Precision 0.720  Recall 0.848  F1 0.779
+  Class 7: Precision 0.860  Recall 0.832  F1 0.846
+  Class 8: Precision 0.979  Recall 0.952  F1 0.965
+  Class 9: Precision 0.941  Recall 0.992  F1 0.966
+
+
+Epoch 13:
+  Train Loss: 0.2880 | Train Acc: 90.74%
+  Val Loss:   0.3801 | Val Acc:   88.53%
+  Precision:  0.8858 | Recall: 0.8853 | F1: 0.8851
+
+  Class 0: Precision 0.871  Recall 0.842  F1 0.856
+  Class 1: Precision 0.961  Recall 0.952  F1 0.956
+  Class 2: Precision 0.836  Recall 0.833  F1 0.835
+  Class 3: Precision 0.916  Recall 0.963  F1 0.939
+  Class 4: Precision 0.889  Recall 0.865  F1 0.877
+  Class 5: Precision 0.794  Recall 0.848  F1 0.820
+  Class 6: Precision 0.833  Recall 0.748  F1 0.788
+  Class 7: Precision 0.820  Recall 0.873  F1 0.846
+  Class 8: Precision 0.973  Recall 0.968  F1 0.971
+  Class 9: Precision 0.965  Recall 0.960  F1 0.962
+
+
+Epoch 14:
+  Train Loss: 0.2813 | Train Acc: 90.85%
+  Val Loss:   0.3975 | Val Acc:   88.00%
+  Precision:  0.8811 | Recall: 0.8800 | F1: 0.8800
+
+  Class 0: Precision 0.884  Recall 0.803  F1 0.842
+  Class 1: Precision 0.930  Recall 0.968  F1 0.949
+  Class 2: Precision 0.843  Recall 0.803  F1 0.823
+  Class 3: Precision 0.942  Recall 0.955  F1 0.949
+  Class 4: Precision 0.841  Recall 0.900  F1 0.870
+  Class 5: Precision 0.797  Recall 0.838  F1 0.817
+  Class 6: Precision 0.811  Recall 0.793  F1 0.802
+  Class 7: Precision 0.813  Recall 0.855  F1 0.833
+  Class 8: Precision 0.973  Recall 0.960  F1 0.966
+  Class 9: Precision 0.977  Recall 0.923  F1 0.949
+
+
+Epoch 15:
+  Train Loss: 0.2729 | Train Acc: 91.05%
+  Val Loss:   0.3705 | Val Acc:   88.67%
+  Precision:  0.8877 | Recall: 0.8867 | F1: 0.8862
+
+  Class 0: Precision 0.876  Recall 0.860  F1 0.868
+  Class 1: Precision 0.930  Recall 0.975  F1 0.952
+  Class 2: Precision 0.811  Recall 0.857  F1 0.833
+  Class 3: Precision 0.929  Recall 0.980  F1 0.954
+  Class 4: Precision 0.938  Recall 0.812  F1 0.870
+  Class 5: Precision 0.793  Recall 0.832  F1 0.812
+  Class 6: Precision 0.796  Recall 0.798  F1 0.797
+  Class 7: Precision 0.897  Recall 0.810  F1 0.851
+  Class 8: Precision 0.951  Recall 0.967  F1 0.959
+  Class 9: Precision 0.956  Recall 0.977  F1 0.966
+
+
+Epoch 16:
+  Train Loss: 0.2619 | Train Acc: 91.35%
+  Val Loss:   0.3710 | Val Acc:   88.67%
+  Precision:  0.8890 | Recall: 0.8867 | F1: 0.8867
+
+  Class 0: Precision 0.936  Recall 0.805  F1 0.866
+  Class 1: Precision 0.961  Recall 0.950  F1 0.956
+  Class 2: Precision 0.798  Recall 0.863  F1 0.829
+  Class 3: Precision 0.943  Recall 0.960  F1 0.951
+  Class 4: Precision 0.913  Recall 0.877  F1 0.895
+  Class 5: Precision 0.765  Recall 0.875  F1 0.816
+  Class 6: Precision 0.812  Recall 0.748  F1 0.779
+  Class 7: Precision 0.848  Recall 0.838  F1 0.843
+  Class 8: Precision 0.954  Recall 0.977  F1 0.965
+  Class 9: Precision 0.959  Recall 0.973  F1 0.966
+
+
+Epoch 17:
+  Train Loss: 0.2468 | Train Acc: 91.89%
+  Val Loss:   0.3838 | Val Acc:   88.35%
+  Precision:  0.8845 | Recall: 0.8835 | F1: 0.8836
+
+  Class 0: Precision 0.860  Recall 0.850  F1 0.855
+  Class 1: Precision 0.935  Recall 0.963  F1 0.949
+  Class 2: Precision 0.844  Recall 0.793  F1 0.818
+  Class 3: Precision 0.940  Recall 0.965  F1 0.952
+  Class 4: Precision 0.898  Recall 0.853  F1 0.875
+  Class 5: Precision 0.774  Recall 0.848  F1 0.809
+  Class 6: Precision 0.781  Recall 0.807  F1 0.793
+  Class 7: Precision 0.883  Recall 0.840  F1 0.861
+  Class 8: Precision 0.965  Recall 0.968  F1 0.967
+  Class 9: Precision 0.966  Recall 0.947  F1 0.956
+
+
+Epoch 18:
+  Train Loss: 0.2387 | Train Acc: 92.24%
+  Val Loss:   0.3654 | Val Acc:   88.13%
+  Precision:  0.8806 | Recall: 0.8813 | F1: 0.8804
+
+  Class 0: Precision 0.909  Recall 0.847  F1 0.877
+  Class 1: Precision 0.963  Recall 0.942  F1 0.952
+  Class 2: Precision 0.833  Recall 0.833  F1 0.833
+  Class 3: Precision 0.899  Recall 0.980  F1 0.938
+  Class 4: Precision 0.836  Recall 0.867  F1 0.851
+  Class 5: Precision 0.811  Recall 0.800  F1 0.805
+  Class 6: Precision 0.799  Recall 0.747  F1 0.772
+  Class 7: Precision 0.876  Recall 0.837  F1 0.856
+  Class 8: Precision 0.926  Recall 0.983  F1 0.954
+  Class 9: Precision 0.954  Recall 0.978  F1 0.966
+
+
+Epoch 19:
+  Train Loss: 0.2331 | Train Acc: 92.36%
+  Val Loss:   0.3569 | Val Acc:   88.78%
+  Precision:  0.8882 | Recall: 0.8878 | F1: 0.8876
+
+  Class 0: Precision 0.887  Recall 0.865  F1 0.876
+  Class 1: Precision 0.929  Recall 0.967  F1 0.948
+  Class 2: Precision 0.845  Recall 0.818  F1 0.831
+  Class 3: Precision 0.958  Recall 0.952  F1 0.955
+  Class 4: Precision 0.863  Recall 0.890  F1 0.876
+  Class 5: Precision 0.782  Recall 0.847  F1 0.813
+  Class 6: Precision 0.820  Recall 0.780  F1 0.799
+  Class 7: Precision 0.879  Recall 0.833  F1 0.855
+  Class 8: Precision 0.976  Recall 0.942  F1 0.958
+  Class 9: Precision 0.944  Recall 0.985  F1 0.964
+
+
+Epoch 20:
+  Train Loss: 0.2259 | Train Acc: 92.45%
+  Val Loss:   0.3899 | Val Acc:   88.15%
+  Precision:  0.8829 | Recall: 0.8815 | F1: 0.8813
+
+  Class 0: Precision 0.864  Recall 0.858  F1 0.861
+  Class 1: Precision 0.935  Recall 0.962  F1 0.948
+  Class 2: Precision 0.791  Recall 0.865  F1 0.826
+  Class 3: Precision 0.943  Recall 0.963  F1 0.953
+  Class 4: Precision 0.881  Recall 0.853  F1 0.867
+  Class 5: Precision 0.826  Recall 0.785  F1 0.805
+  Class 6: Precision 0.763  Recall 0.825  F1 0.793
+  Class 7: Precision 0.897  Recall 0.767  F1 0.827
+  Class 8: Precision 0.968  Recall 0.958  F1 0.963
+  Class 9: Precision 0.961  Recall 0.978  F1 0.969
+
+
+Epoch 21:
+  Train Loss: 0.2103 | Train Acc: 93.11%
+  Val Loss:   0.4864 | Val Acc:   87.07%
+  Precision:  0.8728 | Recall: 0.8707 | F1: 0.8697
+
+  Class 0: Precision 0.907  Recall 0.762  F1 0.828
+  Class 1: Precision 0.944  Recall 0.962  F1 0.953
+  Class 2: Precision 0.806  Recall 0.860  F1 0.832
+  Class 3: Precision 0.911  Recall 0.978  F1 0.944
+  Class 4: Precision 0.853  Recall 0.812  F1 0.832
+  Class 5: Precision 0.888  Recall 0.728  F1 0.800
+  Class 6: Precision 0.754  Recall 0.828  F1 0.790
+  Class 7: Precision 0.806  Recall 0.845  F1 0.825
+  Class 8: Precision 0.888  Recall 0.968  F1 0.927
+  Class 9: Precision 0.970  Recall 0.963  F1 0.967
+
+
+Epoch 22:
+  Train Loss: 0.2088 | Train Acc: 93.05%
+  Val Loss:   0.3963 | Val Acc:   88.22%
+  Precision:  0.8873 | Recall: 0.8822 | F1: 0.8826
+
+  Class 0: Precision 0.923  Recall 0.798  F1 0.856
+  Class 1: Precision 0.935  Recall 0.965  F1 0.950
+  Class 2: Precision 0.860  Recall 0.800  F1 0.829
+  Class 3: Precision 0.952  Recall 0.955  F1 0.953
+  Class 4: Precision 0.882  Recall 0.873  F1 0.878
+  Class 5: Precision 0.705  Recall 0.903  F1 0.792
+  Class 6: Precision 0.826  Recall 0.742  F1 0.781
+  Class 7: Precision 0.845  Recall 0.875  F1 0.860
+  Class 8: Precision 0.962  Recall 0.977  F1 0.969
+  Class 9: Precision 0.982  Recall 0.933  F1 0.957
+
+
+Epoch 23:
+  Train Loss: 0.1952 | Train Acc: 93.55%
+  Val Loss:   0.4311 | Val Acc:   88.30%
+  Precision:  0.8861 | Recall: 0.8830 | F1: 0.8834
+
+  Class 0: Precision 0.895  Recall 0.835  F1 0.864
+  Class 1: Precision 0.958  Recall 0.923  F1 0.941
+  Class 2: Precision 0.863  Recall 0.820  F1 0.841
+  Class 3: Precision 0.938  Recall 0.965  F1 0.952
+  Class 4: Precision 0.885  Recall 0.873  F1 0.879
+  Class 5: Precision 0.785  Recall 0.848  F1 0.816
+  Class 6: Precision 0.809  Recall 0.757  F1 0.782
+  Class 7: Precision 0.774  Recall 0.920  F1 0.841
+  Class 8: Precision 0.976  Recall 0.960  F1 0.968
+  Class 9: Precision 0.975  Recall 0.928  F1 0.951
+
+
+Epoch 24:
+  Train Loss: 0.1920 | Train Acc: 93.80%
+  Val Loss:   0.4127 | Val Acc:   88.05%
+  Precision:  0.8820 | Recall: 0.8805 | F1: 0.8800
+
+  Class 0: Precision 0.828  Recall 0.892  F1 0.859
+  Class 1: Precision 0.934  Recall 0.968  F1 0.951
+  Class 2: Precision 0.789  Recall 0.840  F1 0.814
+  Class 3: Precision 0.931  Recall 0.967  F1 0.948
+  Class 4: Precision 0.915  Recall 0.822  F1 0.866
+  Class 5: Precision 0.793  Recall 0.845  F1 0.818
+  Class 6: Precision 0.836  Recall 0.783  F1 0.809
+  Class 7: Precision 0.905  Recall 0.777  F1 0.836
+  Class 8: Precision 0.949  Recall 0.933  F1 0.941
+  Class 9: Precision 0.939  Recall 0.978  F1 0.958
+
+
+Epoch 25:
+  Train Loss: 0.1762 | Train Acc: 94.13%
+  Val Loss:   0.4050 | Val Acc:   88.67%
+  Precision:  0.8873 | Recall: 0.8867 | F1: 0.8866
+
+  Class 0: Precision 0.878  Recall 0.862  F1 0.870
+  Class 1: Precision 0.922  Recall 0.982  F1 0.951
+  Class 2: Precision 0.852  Recall 0.817  F1 0.834
+  Class 3: Precision 0.948  Recall 0.945  F1 0.947
+  Class 4: Precision 0.881  Recall 0.855  F1 0.868
+  Class 5: Precision 0.776  Recall 0.850  F1 0.811
+  Class 6: Precision 0.802  Recall 0.797  F1 0.799
+  Class 7: Precision 0.879  Recall 0.835  F1 0.856
+  Class 8: Precision 0.968  Recall 0.958  F1 0.963
+  Class 9: Precision 0.967  Recall 0.967  F1 0.967
+
+
+Epoch 26:
+  Train Loss: 0.1718 | Train Acc: 94.34%
+  Val Loss:   0.4482 | Val Acc:   87.45%
+  Precision:  0.8759 | Recall: 0.8745 | F1: 0.8737
+
+  Class 0: Precision 0.836  Recall 0.868  F1 0.852
+  Class 1: Precision 0.963  Recall 0.953  F1 0.958
+  Class 2: Precision 0.821  Recall 0.835  F1 0.828
+  Class 3: Precision 0.940  Recall 0.967  F1 0.953
+  Class 4: Precision 0.868  Recall 0.825  F1 0.846
+  Class 5: Precision 0.750  Recall 0.875  F1 0.808
+  Class 6: Precision 0.837  Recall 0.683  F1 0.752
+  Class 7: Precision 0.852  Recall 0.815  F1 0.833
+  Class 8: Precision 0.918  Recall 0.972  F1 0.944
+  Class 9: Precision 0.973  Recall 0.952  F1 0.962
+
+
+Epoch 27:
+  Train Loss: 0.1608 | Train Acc: 94.65%
+  Val Loss:   0.4369 | Val Acc:   87.85%
+  Precision:  0.8786 | Recall: 0.8785 | F1: 0.8780
+
+  Class 0: Precision 0.909  Recall 0.812  F1 0.857
+  Class 1: Precision 0.934  Recall 0.963  F1 0.948
+  Class 2: Precision 0.804  Recall 0.808  F1 0.806
+  Class 3: Precision 0.923  Recall 0.983  F1 0.952
+  Class 4: Precision 0.879  Recall 0.845  F1 0.862
+  Class 5: Precision 0.826  Recall 0.783  F1 0.804
+  Class 6: Precision 0.774  Recall 0.828  F1 0.800
+  Class 7: Precision 0.838  Recall 0.830  F1 0.834
+  Class 8: Precision 0.932  Recall 0.962  F1 0.947
+  Class 9: Precision 0.967  Recall 0.970  F1 0.968
+
+
+Epoch 28:
+  Train Loss: 0.1521 | Train Acc: 94.88%
+  Val Loss:   0.5065 | Val Acc:   87.27%
+  Precision:  0.8753 | Recall: 0.8727 | F1: 0.8722
+
+  Class 0: Precision 0.814  Recall 0.848  F1 0.831
+  Class 1: Precision 0.948  Recall 0.943  F1 0.946
+  Class 2: Precision 0.865  Recall 0.782  F1 0.821
+  Class 3: Precision 0.956  Recall 0.947  F1 0.951
+  Class 4: Precision 0.889  Recall 0.803  F1 0.844
+  Class 5: Precision 0.739  Recall 0.898  F1 0.811
+  Class 6: Precision 0.838  Recall 0.722  F1 0.775
+  Class 7: Precision 0.840  Recall 0.855  F1 0.847
+  Class 8: Precision 0.898  Recall 0.957  F1 0.927
+  Class 9: Precision 0.965  Recall 0.972  F1 0.968
+
+
+Epoch 29:
+  Train Loss: 0.1408 | Train Acc: 95.27%
+  Val Loss:   0.5599 | Val Acc:   86.42%
+  Precision:  0.8672 | Recall: 0.8642 | F1: 0.8637
+
+  Class 0: Precision 0.918  Recall 0.785  F1 0.846
+  Class 1: Precision 0.910  Recall 0.962  F1 0.935
+  Class 2: Precision 0.856  Recall 0.745  F1 0.797
+  Class 3: Precision 0.957  Recall 0.930  F1 0.943
+  Class 4: Precision 0.853  Recall 0.790  F1 0.820
+  Class 5: Precision 0.748  Recall 0.867  F1 0.803
+  Class 6: Precision 0.782  Recall 0.777  F1 0.779
+  Class 7: Precision 0.833  Recall 0.867  F1 0.850
+  Class 8: Precision 0.842  Recall 0.965  F1 0.899
+  Class 9: Precision 0.973  Recall 0.955  F1 0.964
+
+
+Epoch 30:
+  Train Loss: 0.1301 | Train Acc: 95.71%
+  Val Loss:   0.4784 | Val Acc:   87.65%
+  Precision:  0.8788 | Recall: 0.8765 | F1: 0.8759
+
+  Class 0: Precision 0.906  Recall 0.835  F1 0.869
+  Class 1: Precision 0.939  Recall 0.957  F1 0.948
+  Class 2: Precision 0.827  Recall 0.838  F1 0.833
+  Class 3: Precision 0.953  Recall 0.942  F1 0.947
+  Class 4: Precision 0.784  Recall 0.892  F1 0.835
+  Class 5: Precision 0.766  Recall 0.857  F1 0.809
+  Class 6: Precision 0.842  Recall 0.675  F1 0.749
+  Class 7: Precision 0.845  Recall 0.853  F1 0.849
+  Class 8: Precision 0.953  Recall 0.970  F1 0.961
+  Class 9: Precision 0.973  Recall 0.947  F1 0.959
+
+
+Epoch 31:
+  Train Loss: 0.1296 | Train Acc: 95.53%
+  Val Loss:   0.4342 | Val Acc:   88.45%
+  Precision:  0.8836 | Recall: 0.8845 | F1: 0.8839
+
+  Class 0: Precision 0.878  Recall 0.838  F1 0.858
+  Class 1: Precision 0.946  Recall 0.962  F1 0.954
+  Class 2: Precision 0.851  Recall 0.818  F1 0.834
+  Class 3: Precision 0.932  Recall 0.978  F1 0.954
+  Class 4: Precision 0.855  Recall 0.873  F1 0.864
+  Class 5: Precision 0.808  Recall 0.807  F1 0.807
+  Class 6: Precision 0.778  Recall 0.765  F1 0.771
+  Class 7: Precision 0.865  Recall 0.853  F1 0.859
+  Class 8: Precision 0.961  Recall 0.975  F1 0.968
+  Class 9: Precision 0.964  Recall 0.975  F1 0.969
+
+
+Epoch 32:
+  Train Loss: 0.1203 | Train Acc: 95.96%
+  Val Loss:   0.5361 | Val Acc:   87.10%
+  Precision:  0.8738 | Recall: 0.8710 | F1: 0.8709
+
+  Class 0: Precision 0.862  Recall 0.863  F1 0.863
+  Class 1: Precision 0.964  Recall 0.935  F1 0.949
+  Class 2: Precision 0.773  Recall 0.863  F1 0.816
+  Class 3: Precision 0.957  Recall 0.930  F1 0.943
+  Class 4: Precision 0.861  Recall 0.818  F1 0.839
+  Class 5: Precision 0.850  Recall 0.745  F1 0.794
+  Class 6: Precision 0.742  Recall 0.833  F1 0.785
+  Class 7: Precision 0.889  Recall 0.777  F1 0.829
+  Class 8: Precision 0.887  Recall 0.965  F1 0.924
+  Class 9: Precision 0.953  Recall 0.980  F1 0.966
+
+
+Epoch 33:
+  Train Loss: 0.1143 | Train Acc: 96.23%
+  Val Loss:   0.5280 | Val Acc:   87.47%
+  Precision:  0.8776 | Recall: 0.8747 | F1: 0.8740
+
+  Class 0: Precision 0.905  Recall 0.780  F1 0.838
+  Class 1: Precision 0.917  Recall 0.958  F1 0.937
+  Class 2: Precision 0.848  Recall 0.808  F1 0.828
+  Class 3: Precision 0.938  Recall 0.958  F1 0.948
+  Class 4: Precision 0.859  Recall 0.862  F1 0.860
+  Class 5: Precision 0.736  Recall 0.893  F1 0.807
+  Class 6: Precision 0.846  Recall 0.705  F1 0.769
+  Class 7: Precision 0.817  Recall 0.863  F1 0.840
+  Class 8: Precision 0.932  Recall 0.978  F1 0.954
+  Class 9: Precision 0.977  Recall 0.940  F1 0.958
+
+
+Epoch 34:
+  Train Loss: 0.1041 | Train Acc: 96.32%
+  Val Loss:   0.5657 | Val Acc:   86.97%
+  Precision:  0.8700 | Recall: 0.8697 | F1: 0.8693
+
+  Class 0: Precision 0.843  Recall 0.862  F1 0.852
+  Class 1: Precision 0.929  Recall 0.965  F1 0.947
+  Class 2: Precision 0.836  Recall 0.757  F1 0.794
+  Class 3: Precision 0.923  Recall 0.963  F1 0.943
+  Class 4: Precision 0.851  Recall 0.847  F1 0.849
+  Class 5: Precision 0.790  Recall 0.783  F1 0.787
+  Class 6: Precision 0.758  Recall 0.818  F1 0.787
+  Class 7: Precision 0.865  Recall 0.812  F1 0.837
+  Class 8: Precision 0.932  Recall 0.960  F1 0.946
+  Class 9: Precision 0.972  Recall 0.930  F1 0.951
+
+
+Epoch 35:
+  Train Loss: 0.0997 | Train Acc: 96.68%
+  Val Loss:   0.4624 | Val Acc:   88.63%
+  Precision:  0.8870 | Recall: 0.8863 | F1: 0.8863
+
+  Class 0: Precision 0.898  Recall 0.820  F1 0.857
+  Class 1: Precision 0.947  Recall 0.950  F1 0.948
+  Class 2: Precision 0.842  Recall 0.845  F1 0.844
+  Class 3: Precision 0.943  Recall 0.963  F1 0.953
+  Class 4: Precision 0.896  Recall 0.872  F1 0.883
+  Class 5: Precision 0.818  Recall 0.782  F1 0.800
+  Class 6: Precision 0.756  Recall 0.817  F1 0.785
+  Class 7: Precision 0.851  Recall 0.875  F1 0.863
+  Class 8: Precision 0.965  Recall 0.963  F1 0.964
+  Class 9: Precision 0.954  Recall 0.977  F1 0.965
+
+
+Epoch 36:
+  Train Loss: 0.0897 | Train Acc: 96.91%
+  Val Loss:   0.5208 | Val Acc:   88.38%
+  Precision:  0.8882 | Recall: 0.8838 | F1: 0.8834
+
+  Class 0: Precision 0.916  Recall 0.822  F1 0.866
+  Class 1: Precision 0.924  Recall 0.975  F1 0.949
+  Class 2: Precision 0.911  Recall 0.767  F1 0.833
+  Class 3: Precision 0.927  Recall 0.968  F1 0.947
+  Class 4: Precision 0.896  Recall 0.875  F1 0.885
+  Class 5: Precision 0.844  Recall 0.712  F1 0.772
+  Class 6: Precision 0.711  Recall 0.877  F1 0.785
+  Class 7: Precision 0.826  Recall 0.910  F1 0.866
+  Class 8: Precision 0.970  Recall 0.960  F1 0.965
+  Class 9: Precision 0.957  Recall 0.973  F1 0.965
+
+
+Epoch 37:
+  Train Loss: 0.0910 | Train Acc: 96.94%
+  Val Loss:   0.5548 | Val Acc:   87.92%
+  Precision:  0.8806 | Recall: 0.8792 | F1: 0.8781
+
+  Class 0: Precision 0.851  Recall 0.873  F1 0.862
+  Class 1: Precision 0.942  Recall 0.953  F1 0.948
+  Class 2: Precision 0.848  Recall 0.802  F1 0.824
+  Class 3: Precision 0.935  Recall 0.963  F1 0.949
+  Class 4: Precision 0.886  Recall 0.872  F1 0.879
+  Class 5: Precision 0.741  Recall 0.882  F1 0.805
+  Class 6: Precision 0.845  Recall 0.670  F1 0.747
+  Class 7: Precision 0.848  Recall 0.847  F1 0.847
+  Class 8: Precision 0.952  Recall 0.963  F1 0.958
+  Class 9: Precision 0.957  Recall 0.967  F1 0.962
+
+
+Epoch 38:
+  Train Loss: 0.0850 | Train Acc: 97.13%
+  Val Loss:   0.5067 | Val Acc:   87.70%
+  Precision:  0.8778 | Recall: 0.8770 | F1: 0.8766
+
+  Class 0: Precision 0.906  Recall 0.837  F1 0.870
+  Class 1: Precision 0.938  Recall 0.958  F1 0.948
+  Class 2: Precision 0.854  Recall 0.797  F1 0.824
+  Class 3: Precision 0.953  Recall 0.915  F1 0.934
+  Class 4: Precision 0.824  Recall 0.868  F1 0.846
+  Class 5: Precision 0.763  Recall 0.850  F1 0.804
+  Class 6: Precision 0.803  Recall 0.740  F1 0.770
+  Class 7: Precision 0.846  Recall 0.852  F1 0.849
+  Class 8: Precision 0.939  Recall 0.968  F1 0.953
+  Class 9: Precision 0.952  Recall 0.985  F1 0.968
+
+
+Epoch 39:
+  Train Loss: 0.0783 | Train Acc: 97.28%
+  Val Loss:   0.5736 | Val Acc:   87.43%
+  Precision:  0.8760 | Recall: 0.8743 | F1: 0.8735
+
+  Class 0: Precision 0.884  Recall 0.863  F1 0.874
+  Class 1: Precision 0.917  Recall 0.972  F1 0.943
+  Class 2: Precision 0.852  Recall 0.815  F1 0.833
+  Class 3: Precision 0.928  Recall 0.967  F1 0.947
+  Class 4: Precision 0.838  Recall 0.860  F1 0.849
+  Class 5: Precision 0.734  Recall 0.872  F1 0.797
+  Class 6: Precision 0.831  Recall 0.672  F1 0.743
+  Class 7: Precision 0.864  Recall 0.837  F1 0.850
+  Class 8: Precision 0.938  Recall 0.962  F1 0.950
+  Class 9: Precision 0.975  Recall 0.925  F1 0.950
+
+
+Epoch 40:
+  Train Loss: 0.0791 | Train Acc: 97.36%
+  Val Loss:   0.6026 | Val Acc:   87.35%
+  Precision:  0.8746 | Recall: 0.8735 | F1: 0.8733
+
+  Class 0: Precision 0.890  Recall 0.782  F1 0.832
+  Class 1: Precision 0.958  Recall 0.922  F1 0.940
+  Class 2: Precision 0.818  Recall 0.848  F1 0.833
+  Class 3: Precision 0.929  Recall 0.960  F1 0.944
+  Class 4: Precision 0.855  Recall 0.867  F1 0.861
+  Class 5: Precision 0.815  Recall 0.795  F1 0.805
+  Class 6: Precision 0.791  Recall 0.768  F1 0.779
+  Class 7: Precision 0.783  Recall 0.872  F1 0.825
+  Class 8: Precision 0.949  Recall 0.953  F1 0.951
+  Class 9: Precision 0.957  Recall 0.968  F1 0.963
+
+
+Epoch 41:
+  Train Loss: 0.0715 | Train Acc: 97.60%
+  Val Loss:   0.5643 | Val Acc:   87.50%
+  Precision:  0.8766 | Recall: 0.8750 | F1: 0.8754
+
+  Class 0: Precision 0.864  Recall 0.845  F1 0.854
+  Class 1: Precision 0.932  Recall 0.953  F1 0.942
+  Class 2: Precision 0.852  Recall 0.795  F1 0.822
+  Class 3: Precision 0.960  Recall 0.925  F1 0.942
+  Class 4: Precision 0.840  Recall 0.875  F1 0.857
+  Class 5: Precision 0.778  Recall 0.800  F1 0.789
+  Class 6: Precision 0.754  Recall 0.813  F1 0.783
+  Class 7: Precision 0.863  Recall 0.842  F1 0.852
+  Class 8: Precision 0.956  Recall 0.968  F1 0.962
+  Class 9: Precision 0.967  Recall 0.933  F1 0.950
+
+
+Epoch 42:
+  Train Loss: 0.0667 | Train Acc: 97.82%
+  Val Loss:   0.5895 | Val Acc:   87.88%
+  Precision:  0.8800 | Recall: 0.8788 | F1: 0.8785
+
+  Class 0: Precision 0.892  Recall 0.830  F1 0.860
+  Class 1: Precision 0.947  Recall 0.950  F1 0.948
+  Class 2: Precision 0.868  Recall 0.770  F1 0.816
+  Class 3: Precision 0.947  Recall 0.960  F1 0.954
+  Class 4: Precision 0.881  Recall 0.862  F1 0.871
+  Class 5: Precision 0.765  Recall 0.820  F1 0.792
+  Class 6: Precision 0.789  Recall 0.755  F1 0.772
+  Class 7: Precision 0.805  Recall 0.915  F1 0.856
+  Class 8: Precision 0.944  Recall 0.962  F1 0.953
+  Class 9: Precision 0.960  Recall 0.965  F1 0.963
+
+
+Epoch 43:
+  Train Loss: 0.0682 | Train Acc: 97.68%
+  Val Loss:   0.6275 | Val Acc:   87.00%
+  Precision:  0.8724 | Recall: 0.8700 | F1: 0.8687
+
+  Class 0: Precision 0.828  Recall 0.885  F1 0.856
+  Class 1: Precision 0.948  Recall 0.950  F1 0.949
+  Class 2: Precision 0.886  Recall 0.753  F1 0.814
+  Class 3: Precision 0.930  Recall 0.957  F1 0.943
+  Class 4: Precision 0.851  Recall 0.863  F1 0.857
+  Class 5: Precision 0.715  Recall 0.880  F1 0.789
+  Class 6: Precision 0.809  Recall 0.662  F1 0.728
+  Class 7: Precision 0.878  Recall 0.800  F1 0.837
+  Class 8: Precision 0.930  Recall 0.970  F1 0.949
+  Class 9: Precision 0.948  Recall 0.980  F1 0.964
+
+
+Epoch 44:
+  Train Loss: 0.0635 | Train Acc: 97.83%
+  Val Loss:   0.5855 | Val Acc:   87.72%
+  Precision:  0.8792 | Recall: 0.8772 | F1: 0.8775
+
+  Class 0: Precision 0.845  Recall 0.863  F1 0.854
+  Class 1: Precision 0.939  Recall 0.947  F1 0.943
+  Class 2: Precision 0.842  Recall 0.808  F1 0.825
+  Class 3: Precision 0.952  Recall 0.962  F1 0.957
+  Class 4: Precision 0.887  Recall 0.840  F1 0.863
+  Class 5: Precision 0.789  Recall 0.792  F1 0.790
+  Class 6: Precision 0.735  Recall 0.828  F1 0.779
+  Class 7: Precision 0.898  Recall 0.822  F1 0.858
+  Class 8: Precision 0.927  Recall 0.970  F1 0.948
+  Class 9: Precision 0.977  Recall 0.940  F1 0.958
+
+
+Epoch 45:
+  Train Loss: 0.0595 | Train Acc: 97.97%
+  Val Loss:   0.6800 | Val Acc:   87.20%
+  Precision:  0.8758 | Recall: 0.8720 | F1: 0.8721
+
+  Class 0: Precision 0.862  Recall 0.853  F1 0.858
+  Class 1: Precision 0.929  Recall 0.942  F1 0.935
+  Class 2: Precision 0.838  Recall 0.795  F1 0.816
+  Class 3: Precision 0.956  Recall 0.932  F1 0.943
+  Class 4: Precision 0.844  Recall 0.890  F1 0.866
+  Class 5: Precision 0.707  Recall 0.890  F1 0.788
+  Class 6: Precision 0.813  Recall 0.705  F1 0.755
+  Class 7: Precision 0.879  Recall 0.798  F1 0.837
+  Class 8: Precision 0.957  Recall 0.957  F1 0.957
+  Class 9: Precision 0.973  Recall 0.958  F1 0.966
+
+
+Epoch 46:
+  Train Loss: 0.0589 | Train Acc: 98.06%
+  Val Loss:   0.5964 | Val Acc:   87.90%
+  Precision:  0.8793 | Recall: 0.8790 | F1: 0.8785
+
+  Class 0: Precision 0.900  Recall 0.823  F1 0.860
+  Class 1: Precision 0.935  Recall 0.963  F1 0.949
+  Class 2: Precision 0.814  Recall 0.840  F1 0.827
+  Class 3: Precision 0.913  Recall 0.980  F1 0.945
+  Class 4: Precision 0.903  Recall 0.833  F1 0.867
+  Class 5: Precision 0.774  Recall 0.828  F1 0.800
+  Class 6: Precision 0.791  Recall 0.745  F1 0.767
+  Class 7: Precision 0.845  Recall 0.852  F1 0.848
+  Class 8: Precision 0.954  Recall 0.962  F1 0.958
+  Class 9: Precision 0.965  Recall 0.963  F1 0.964
+
+
+Epoch 47:
+  Train Loss: 0.0577 | Train Acc: 98.01%
+  Val Loss:   0.6224 | Val Acc:   87.40%
+  Precision:  0.8743 | Recall: 0.8740 | F1: 0.8736
+
+  Class 0: Precision 0.854  Recall 0.893  F1 0.873
+  Class 1: Precision 0.932  Recall 0.942  F1 0.937
+  Class 2: Precision 0.881  Recall 0.780  F1 0.828
+  Class 3: Precision 0.914  Recall 0.960  F1 0.937
+  Class 4: Precision 0.845  Recall 0.870  F1 0.857
+  Class 5: Precision 0.789  Recall 0.798  F1 0.794
+  Class 6: Precision 0.763  Recall 0.730  F1 0.746
+  Class 7: Precision 0.839  Recall 0.893  F1 0.865
+  Class 8: Precision 0.961  Recall 0.940  F1 0.950
+  Class 9: Precision 0.966  Recall 0.933  F1 0.949
+
+
+Epoch 48:
+  Train Loss: 0.0568 | Train Acc: 98.01%
+  Val Loss:   0.7262 | Val Acc:   87.03%
+  Precision:  0.8701 | Recall: 0.8703 | F1: 0.8696
+
+  Class 0: Precision 0.808  Recall 0.872  F1 0.839
+  Class 1: Precision 0.947  Recall 0.928  F1 0.938
+  Class 2: Precision 0.852  Recall 0.788  F1 0.819
+  Class 3: Precision 0.915  Recall 0.975  F1 0.944
+  Class 4: Precision 0.868  Recall 0.842  F1 0.854
+  Class 5: Precision 0.789  Recall 0.793  F1 0.791
+  Class 6: Precision 0.791  Recall 0.723  F1 0.755
+  Class 7: Precision 0.831  Recall 0.868  F1 0.849
+  Class 8: Precision 0.928  Recall 0.963  F1 0.945
+  Class 9: Precision 0.971  Recall 0.950  F1 0.960
+
+
+Epoch 49:
+  Train Loss: 0.0516 | Train Acc: 98.27%
+  Val Loss:   0.6779 | Val Acc:   87.93%
+  Precision:  0.8795 | Recall: 0.8793 | F1: 0.8791
+
+  Class 0: Precision 0.862  Recall 0.853  F1 0.858
+  Class 1: Precision 0.900  Recall 0.975  F1 0.936
+  Class 2: Precision 0.863  Recall 0.810  F1 0.836
+  Class 3: Precision 0.955  Recall 0.945  F1 0.950
+  Class 4: Precision 0.884  Recall 0.863  F1 0.874
+  Class 5: Precision 0.776  Recall 0.825  F1 0.800
+  Class 6: Precision 0.776  Recall 0.760  F1 0.768
+  Class 7: Precision 0.877  Recall 0.852  F1 0.864
+  Class 8: Precision 0.942  Recall 0.955  F1 0.949
+  Class 9: Precision 0.961  Recall 0.955  F1 0.958
+
+
+Epoch 50:
+  Train Loss: 0.0507 | Train Acc: 98.33%
+  Val Loss:   0.6679 | Val Acc:   87.87%
+  Precision:  0.8797 | Recall: 0.8787 | F1: 0.8786
+
+  Class 0: Precision 0.874  Recall 0.845  F1 0.859
+  Class 1: Precision 0.922  Recall 0.962  F1 0.941
+  Class 2: Precision 0.861  Recall 0.785  F1 0.821
+  Class 3: Precision 0.952  Recall 0.955  F1 0.953
+  Class 4: Precision 0.885  Recall 0.850  F1 0.867
+  Class 5: Precision 0.763  Recall 0.853  F1 0.806
+  Class 6: Precision 0.782  Recall 0.753  F1 0.767
+  Class 7: Precision 0.835  Recall 0.880  F1 0.857
+  Class 8: Precision 0.960  Recall 0.952  F1 0.956
+  Class 9: Precision 0.963  Recall 0.952  F1 0.957
+
+
+Epoch 51:
+  Train Loss: 0.0472 | Train Acc: 98.34%
+  Val Loss:   0.6357 | Val Acc:   88.03%
+  Precision:  0.8800 | Recall: 0.8803 | F1: 0.8797
+
+  Class 0: Precision 0.891  Recall 0.833  F1 0.861
+  Class 1: Precision 0.914  Recall 0.970  F1 0.941
+  Class 2: Precision 0.856  Recall 0.795  F1 0.825
+  Class 3: Precision 0.915  Recall 0.972  F1 0.943
+  Class 4: Precision 0.877  Recall 0.855  F1 0.866
+  Class 5: Precision 0.794  Recall 0.810  F1 0.802
+  Class 6: Precision 0.779  Recall 0.782  F1 0.780
+  Class 7: Precision 0.860  Recall 0.863  F1 0.862
+  Class 8: Precision 0.966  Recall 0.950  F1 0.958
+  Class 9: Precision 0.947  Recall 0.973  F1 0.960
+
+
+Epoch 52:
+  Train Loss: 0.0488 | Train Acc: 98.41%
+  Val Loss:   0.6761 | Val Acc:   87.42%
+  Precision:  0.8744 | Recall: 0.8742 | F1: 0.8730
+
+  Class 0: Precision 0.915  Recall 0.793  F1 0.850
+  Class 1: Precision 0.932  Recall 0.960  F1 0.946
+  Class 2: Precision 0.848  Recall 0.800  F1 0.823
+  Class 3: Precision 0.909  Recall 0.970  F1 0.939
+  Class 4: Precision 0.811  Recall 0.880  F1 0.844
+  Class 5: Precision 0.784  Recall 0.835  F1 0.809
+  Class 6: Precision 0.808  Recall 0.702  F1 0.751
+  Class 7: Precision 0.835  Recall 0.870  F1 0.852
+  Class 8: Precision 0.937  Recall 0.972  F1 0.954
+  Class 9: Precision 0.963  Recall 0.960  F1 0.962
+
+
+Epoch 53:
+  Train Loss: 0.0465 | Train Acc: 98.34%
+  Val Loss:   0.7521 | Val Acc:   88.07%
+  Precision:  0.8850 | Recall: 0.8807 | F1: 0.8803
+
+  Class 0: Precision 0.854  Recall 0.875  F1 0.864
+  Class 1: Precision 0.938  Recall 0.958  F1 0.948
+  Class 2: Precision 0.844  Recall 0.823  F1 0.834
+  Class 3: Precision 0.942  Recall 0.973  F1 0.957
+  Class 4: Precision 0.928  Recall 0.857  F1 0.891
+  Class 5: Precision 0.702  Recall 0.910  F1 0.792
+  Class 6: Precision 0.828  Recall 0.672  F1 0.741
+  Class 7: Precision 0.884  Recall 0.810  F1 0.845
+  Class 8: Precision 0.960  Recall 0.965  F1 0.963
+  Class 9: Precision 0.971  Recall 0.963  F1 0.967
+
+
+Epoch 54:
+  Train Loss: 0.0461 | Train Acc: 98.50%
+  Val Loss:   0.6356 | Val Acc:   88.17%
+  Precision:  0.8839 | Recall: 0.8817 | F1: 0.8819
+
+  Class 0: Precision 0.859  Recall 0.863  F1 0.861
+  Class 1: Precision 0.947  Recall 0.947  F1 0.947
+  Class 2: Precision 0.804  Recall 0.875  F1 0.838
+  Class 3: Precision 0.950  Recall 0.960  F1 0.955
+  Class 4: Precision 0.914  Recall 0.833  F1 0.872
+  Class 5: Precision 0.813  Recall 0.770  F1 0.791
+  Class 6: Precision 0.745  Recall 0.838  F1 0.789
+  Class 7: Precision 0.888  Recall 0.805  F1 0.844
+  Class 8: Precision 0.962  Recall 0.963  F1 0.963
+  Class 9: Precision 0.957  Recall 0.962  F1 0.959
+
+
+Epoch 55:
+  Train Loss: 0.0448 | Train Acc: 98.49%
+  Val Loss:   0.6558 | Val Acc:   87.93%
+  Precision:  0.8799 | Recall: 0.8793 | F1: 0.8791
+
+  Class 0: Precision 0.825  Recall 0.873  F1 0.849
+  Class 1: Precision 0.938  Recall 0.932  F1 0.935
+  Class 2: Precision 0.854  Recall 0.818  F1 0.836
+  Class 3: Precision 0.939  Recall 0.970  F1 0.954
+  Class 4: Precision 0.897  Recall 0.853  F1 0.874
+  Class 5: Precision 0.765  Recall 0.837  F1 0.799
+  Class 6: Precision 0.807  Recall 0.740  F1 0.772
+  Class 7: Precision 0.858  Recall 0.855  F1 0.856
+  Class 8: Precision 0.957  Recall 0.962  F1 0.959
+  Class 9: Precision 0.960  Recall 0.953  F1 0.957
+
+
+Epoch 56:
+  Train Loss: 0.0389 | Train Acc: 98.69%
+  Val Loss:   0.8195 | Val Acc:   87.38%
+  Precision:  0.8783 | Recall: 0.8738 | F1: 0.8744
+
+  Class 0: Precision 0.806  Recall 0.893  F1 0.847
+  Class 1: Precision 0.941  Recall 0.908  F1 0.925
+  Class 2: Precision 0.863  Recall 0.788  F1 0.824
+  Class 3: Precision 0.942  Recall 0.953  F1 0.948
+  Class 4: Precision 0.913  Recall 0.820  F1 0.864
+  Class 5: Precision 0.727  Recall 0.897  F1 0.803
+  Class 6: Precision 0.791  Recall 0.737  F1 0.763
+  Class 7: Precision 0.873  Recall 0.860  F1 0.866
+  Class 8: Precision 0.955  Recall 0.930  F1 0.943
+  Class 9: Precision 0.971  Recall 0.952  F1 0.961
+
+
+Epoch 57:
+  Train Loss: 0.0437 | Train Acc: 98.58%
+  Val Loss:   0.6771 | Val Acc:   88.05%
+  Precision:  0.8830 | Recall: 0.8805 | F1: 0.8812
+
+  Class 0: Precision 0.884  Recall 0.840  F1 0.862
+  Class 1: Precision 0.935  Recall 0.935  F1 0.935
+  Class 2: Precision 0.879  Recall 0.835  F1 0.856
+  Class 3: Precision 0.958  Recall 0.912  F1 0.934
+  Class 4: Precision 0.899  Recall 0.858  F1 0.878
+  Class 5: Precision 0.745  Recall 0.828  F1 0.785
+  Class 6: Precision 0.758  Recall 0.787  F1 0.772
+  Class 7: Precision 0.846  Recall 0.872  F1 0.859
+  Class 8: Precision 0.970  Recall 0.962  F1 0.966
+  Class 9: Precision 0.956  Recall 0.977  F1 0.966
+
+
+Epoch 58:
+  Train Loss: 0.0425 | Train Acc: 98.55%
+  Val Loss:   0.7084 | Val Acc:   87.83%
+  Precision:  0.8784 | Recall: 0.8783 | F1: 0.8776
+
+  Class 0: Precision 0.882  Recall 0.847  F1 0.864
+  Class 1: Precision 0.935  Recall 0.965  F1 0.950
+  Class 2: Precision 0.868  Recall 0.787  F1 0.825
+  Class 3: Precision 0.911  Recall 0.987  F1 0.947
+  Class 4: Precision 0.906  Recall 0.832  F1 0.867
+  Class 5: Precision 0.796  Recall 0.792  F1 0.794
+  Class 6: Precision 0.763  Recall 0.772  F1 0.767
+  Class 7: Precision 0.827  Recall 0.882  F1 0.853
+  Class 8: Precision 0.931  Recall 0.973  F1 0.952
+  Class 9: Precision 0.966  Recall 0.948  F1 0.957
+
+
+Epoch 59:
+  Train Loss: 0.0396 | Train Acc: 98.64%
+  Val Loss:   0.7176 | Val Acc:   86.85%
+  Precision:  0.8714 | Recall: 0.8685 | F1: 0.8689
+
+  Class 0: Precision 0.862  Recall 0.857  F1 0.860
+  Class 1: Precision 0.936  Recall 0.957  F1 0.946
+  Class 2: Precision 0.825  Recall 0.810  F1 0.817
+  Class 3: Precision 0.952  Recall 0.900  F1 0.925
+  Class 4: Precision 0.858  Recall 0.858  F1 0.858
+  Class 5: Precision 0.709  Recall 0.862  F1 0.778
+  Class 6: Precision 0.770  Recall 0.707  F1 0.737
+  Class 7: Precision 0.882  Recall 0.813  F1 0.846
+  Class 8: Precision 0.959  Recall 0.967  F1 0.963
+  Class 9: Precision 0.960  Recall 0.955  F1 0.957
+
+
+Epoch 60:
+  Train Loss: 0.0375 | Train Acc: 98.73%
+  Val Loss:   0.7308 | Val Acc:   88.22%
+  Precision:  0.8829 | Recall: 0.8822 | F1: 0.8820
+
+  Class 0: Precision 0.866  Recall 0.870  F1 0.868
+  Class 1: Precision 0.940  Recall 0.948  F1 0.944
+  Class 2: Precision 0.869  Recall 0.805  F1 0.836
+  Class 3: Precision 0.935  Recall 0.957  F1 0.946
+  Class 4: Precision 0.924  Recall 0.833  F1 0.876
+  Class 5: Precision 0.792  Recall 0.805  F1 0.798
+  Class 6: Precision 0.761  Recall 0.785  F1 0.773
+  Class 7: Precision 0.839  Recall 0.885  F1 0.861
+  Class 8: Precision 0.950  Recall 0.973  F1 0.961
+  Class 9: Precision 0.954  Recall 0.960  F1 0.957
+
+
+Epoch 61:
+  Train Loss: 0.0361 | Train Acc: 98.72%
+  Val Loss:   0.7227 | Val Acc:   87.67%
+  Precision:  0.8773 | Recall: 0.8767 | F1: 0.8767
+
+  Class 0: Precision 0.864  Recall 0.880  F1 0.872
+  Class 1: Precision 0.957  Recall 0.927  F1 0.942
+  Class 2: Precision 0.841  Recall 0.805  F1 0.823
+  Class 3: Precision 0.951  Recall 0.943  F1 0.947
+  Class 4: Precision 0.831  Recall 0.877  F1 0.853
+  Class 5: Precision 0.775  Recall 0.808  F1 0.791
+  Class 6: Precision 0.770  Recall 0.753  F1 0.762
+  Class 7: Precision 0.877  Recall 0.853  F1 0.865
+  Class 8: Precision 0.942  Recall 0.977  F1 0.959
+  Class 9: Precision 0.964  Recall 0.943  F1 0.954
+
+
+Epoch 62:
+  Train Loss: 0.0361 | Train Acc: 98.79%
+  Val Loss:   0.7361 | Val Acc:   87.72%
+  Precision:  0.8789 | Recall: 0.8772 | F1: 0.8772
+
+  Class 0: Precision 0.847  Recall 0.860  F1 0.854
+  Class 1: Precision 0.913  Recall 0.967  F1 0.939
+  Class 2: Precision 0.833  Recall 0.800  F1 0.816
+  Class 3: Precision 0.955  Recall 0.952  F1 0.953
+  Class 4: Precision 0.903  Recall 0.835  F1 0.868
+  Class 5: Precision 0.741  Recall 0.862  F1 0.797
+  Class 6: Precision 0.792  Recall 0.743  F1 0.767
+  Class 7: Precision 0.878  Recall 0.838  F1 0.858
+  Class 8: Precision 0.964  Recall 0.948  F1 0.956
+  Class 9: Precision 0.962  Recall 0.967  F1 0.964
+
+
+Epoch 63:
+  Train Loss: 0.0343 | Train Acc: 98.83%
+  Val Loss:   0.7827 | Val Acc:   87.60%
+  Precision:  0.8759 | Recall: 0.8760 | F1: 0.8749
+
+  Class 0: Precision 0.856  Recall 0.860  F1 0.858
+  Class 1: Precision 0.931  Recall 0.962  F1 0.946
+  Class 2: Precision 0.852  Recall 0.798  F1 0.824
+  Class 3: Precision 0.923  Recall 0.977  F1 0.949
+  Class 4: Precision 0.904  Recall 0.785  F1 0.840
+  Class 5: Precision 0.802  Recall 0.825  F1 0.813
+  Class 6: Precision 0.809  Recall 0.778  F1 0.794
+  Class 7: Precision 0.865  Recall 0.845  F1 0.855
+  Class 8: Precision 0.861  Recall 0.970  F1 0.912
+  Class 9: Precision 0.955  Recall 0.960  F1 0.958
+
+
+Epoch 64:
+  Train Loss: 0.0352 | Train Acc: 98.89%
+  Val Loss:   0.7898 | Val Acc:   87.68%
+  Precision:  0.8766 | Recall: 0.8768 | F1: 0.8759
+
+  Class 0: Precision 0.869  Recall 0.810  F1 0.839
+  Class 1: Precision 0.922  Recall 0.963  F1 0.942
+  Class 2: Precision 0.852  Recall 0.795  F1 0.822
+  Class 3: Precision 0.949  Recall 0.962  F1 0.955
+  Class 4: Precision 0.863  Recall 0.860  F1 0.861
+  Class 5: Precision 0.767  Recall 0.855  F1 0.809
+  Class 6: Precision 0.813  Recall 0.717  F1 0.762
+  Class 7: Precision 0.842  Recall 0.872  F1 0.857
+  Class 8: Precision 0.934  Recall 0.968  F1 0.951
+  Class 9: Precision 0.956  Recall 0.967  F1 0.961
+
+
+Epoch 65:
+  Train Loss: 0.0311 | Train Acc: 98.96%
+  Val Loss:   0.7449 | Val Acc:   87.68%
+  Precision:  0.8784 | Recall: 0.8768 | F1: 0.8774
+
+  Class 0: Precision 0.824  Recall 0.880  F1 0.851
+  Class 1: Precision 0.963  Recall 0.917  F1 0.939
+  Class 2: Precision 0.829  Recall 0.822  F1 0.825
+  Class 3: Precision 0.954  Recall 0.943  F1 0.949
+  Class 4: Precision 0.883  Recall 0.868  F1 0.876
+  Class 5: Precision 0.801  Recall 0.785  F1 0.793
+  Class 6: Precision 0.751  Recall 0.805  F1 0.777
+  Class 7: Precision 0.854  Recall 0.832  F1 0.843
+  Class 8: Precision 0.966  Recall 0.953  F1 0.960
+  Class 9: Precision 0.959  Recall 0.963  F1 0.961
+
+
+Epoch 66:
+  Train Loss: 0.0323 | Train Acc: 98.87%
+  Val Loss:   0.6857 | Val Acc:   88.10%
+  Precision:  0.8806 | Recall: 0.8810 | F1: 0.8806
+
+  Class 0: Precision 0.846  Recall 0.862  F1 0.854
+  Class 1: Precision 0.945  Recall 0.937  F1 0.941
+  Class 2: Precision 0.855  Recall 0.825  F1 0.840
+  Class 3: Precision 0.946  Recall 0.960  F1 0.953
+  Class 4: Precision 0.902  Recall 0.847  F1 0.874
+  Class 5: Precision 0.804  Recall 0.782  F1 0.793
+  Class 6: Precision 0.773  Recall 0.783  F1 0.778
+  Class 7: Precision 0.850  Recall 0.860  F1 0.855
+  Class 8: Precision 0.948  Recall 0.978  F1 0.963
+  Class 9: Precision 0.936  Recall 0.977  F1 0.956
+
+
+Epoch 67:
+  Train Loss: 0.0332 | Train Acc: 98.91%
+  Val Loss:   0.7903 | Val Acc:   87.78%
+  Precision:  0.8792 | Recall: 0.8778 | F1: 0.8774
+
+  Class 0: Precision 0.879  Recall 0.850  F1 0.864
+  Class 1: Precision 0.932  Recall 0.957  F1 0.944
+  Class 2: Precision 0.818  Recall 0.827  F1 0.823
+  Class 3: Precision 0.944  Recall 0.952  F1 0.948
+  Class 4: Precision 0.887  Recall 0.833  F1 0.859
+  Class 5: Precision 0.855  Recall 0.735  F1 0.790
+  Class 6: Precision 0.738  Recall 0.852  F1 0.791
+  Class 7: Precision 0.873  Recall 0.838  F1 0.855
+  Class 8: Precision 0.912  Recall 0.968  F1 0.939
+  Class 9: Precision 0.954  Recall 0.967  F1 0.960
+
+
+Epoch 68:
+  Train Loss: 0.0315 | Train Acc: 98.93%
+  Val Loss:   0.7141 | Val Acc:   88.50%
+  Precision:  0.8852 | Recall: 0.8850 | F1: 0.8848
+
+  Class 0: Precision 0.873  Recall 0.862  F1 0.867
+  Class 1: Precision 0.942  Recall 0.943  F1 0.943
+  Class 2: Precision 0.837  Recall 0.842  F1 0.840
+  Class 3: Precision 0.923  Recall 0.977  F1 0.949
+  Class 4: Precision 0.909  Recall 0.867  F1 0.887
+  Class 5: Precision 0.781  Recall 0.830  F1 0.805
+  Class 6: Precision 0.788  Recall 0.755  F1 0.771
+  Class 7: Precision 0.868  Recall 0.852  F1 0.860
+  Class 8: Precision 0.976  Recall 0.953  F1 0.965
+  Class 9: Precision 0.956  Recall 0.970  F1 0.963
+
+
+Epoch 69:
+  Train Loss: 0.0309 | Train Acc: 98.95%
+  Val Loss:   0.8440 | Val Acc:   87.18%
+  Precision:  0.8734 | Recall: 0.8718 | F1: 0.8716
+
+  Class 0: Precision 0.894  Recall 0.817  F1 0.854
+  Class 1: Precision 0.913  Recall 0.967  F1 0.939
+  Class 2: Precision 0.858  Recall 0.787  F1 0.821
+  Class 3: Precision 0.942  Recall 0.942  F1 0.942
+  Class 4: Precision 0.898  Recall 0.805  F1 0.849
+  Class 5: Precision 0.779  Recall 0.815  F1 0.796
+  Class 6: Precision 0.736  Recall 0.798  F1 0.766
+  Class 7: Precision 0.859  Recall 0.860  F1 0.859
+  Class 8: Precision 0.892  Recall 0.965  F1 0.927
+  Class 9: Precision 0.963  Recall 0.963  F1 0.963
+
+
+Epoch 70:
+  Train Loss: 0.0311 | Train Acc: 98.95%
+  Val Loss:   0.7904 | Val Acc:   86.65%
+  Precision:  0.8680 | Recall: 0.8665 | F1: 0.8664
+
+  Class 0: Precision 0.854  Recall 0.850  F1 0.852
+  Class 1: Precision 0.947  Recall 0.928  F1 0.938
+  Class 2: Precision 0.879  Recall 0.742  F1 0.805
+  Class 3: Precision 0.937  Recall 0.937  F1 0.937
+  Class 4: Precision 0.799  Recall 0.867  F1 0.831
+  Class 5: Precision 0.762  Recall 0.802  F1 0.781
+  Class 6: Precision 0.761  Recall 0.768  F1 0.765
+  Class 7: Precision 0.845  Recall 0.852  F1 0.848
+  Class 8: Precision 0.925  Recall 0.972  F1 0.948
+  Class 9: Precision 0.971  Recall 0.948  F1 0.960
+
+
+Epoch 71:
+  Train Loss: 0.0293 | Train Acc: 98.97%
+  Val Loss:   0.7894 | Val Acc:   87.92%
+  Precision:  0.8796 | Recall: 0.8792 | F1: 0.8786
+
+  Class 0: Precision 0.873  Recall 0.862  F1 0.867
+  Class 1: Precision 0.935  Recall 0.955  F1 0.945
+  Class 2: Precision 0.805  Recall 0.847  F1 0.825
+  Class 3: Precision 0.932  Recall 0.977  F1 0.954
+  Class 4: Precision 0.871  Recall 0.868  F1 0.870
+  Class 5: Precision 0.766  Recall 0.843  F1 0.803
+  Class 6: Precision 0.823  Recall 0.712  F1 0.763
+  Class 7: Precision 0.872  Recall 0.817  F1 0.843
+  Class 8: Precision 0.971  Recall 0.942  F1 0.956
+  Class 9: Precision 0.949  Recall 0.970  F1 0.960
+
+
+Epoch 72:
+  Train Loss: 0.0314 | Train Acc: 98.96%
+  Val Loss:   0.7533 | Val Acc:   87.93%
+  Precision:  0.8821 | Recall: 0.8793 | F1: 0.8792
+
+  Class 0: Precision 0.875  Recall 0.850  F1 0.862
+  Class 1: Precision 0.916  Recall 0.968  F1 0.942
+  Class 2: Precision 0.861  Recall 0.813  F1 0.836
+  Class 3: Precision 0.955  Recall 0.947  F1 0.951
+  Class 4: Precision 0.892  Recall 0.863  F1 0.877
+  Class 5: Precision 0.718  Recall 0.885  F1 0.793
+  Class 6: Precision 0.819  Recall 0.695  F1 0.752
+  Class 7: Precision 0.859  Recall 0.860  F1 0.859
+  Class 8: Precision 0.968  Recall 0.958  F1 0.963
+  Class 9: Precision 0.960  Recall 0.953  F1 0.957
+
+
+Epoch 73:
+  Train Loss: 0.0279 | Train Acc: 99.04%
+  Val Loss:   0.7702 | Val Acc:   87.40%
+  Precision:  0.8734 | Recall: 0.8740 | F1: 0.8729
+
+  Class 0: Precision 0.888  Recall 0.845  F1 0.866
+  Class 1: Precision 0.941  Recall 0.958  F1 0.950
+  Class 2: Precision 0.858  Recall 0.805  F1 0.831
+  Class 3: Precision 0.916  Recall 0.977  F1 0.945
+  Class 4: Precision 0.864  Recall 0.815  F1 0.839
+  Class 5: Precision 0.769  Recall 0.833  F1 0.800
+  Class 6: Precision 0.792  Recall 0.705  F1 0.746
+  Class 7: Precision 0.846  Recall 0.880  F1 0.863
+  Class 8: Precision 0.900  Recall 0.963  F1 0.931
+  Class 9: Precision 0.960  Recall 0.958  F1 0.959
+
+
+Epoch 74:
+  Train Loss: 0.0250 | Train Acc: 99.17%
+  Val Loss:   0.7697 | Val Acc:   88.10%
+  Precision:  0.8809 | Recall: 0.8810 | F1: 0.8802
+
+  Class 0: Precision 0.873  Recall 0.838  F1 0.855
+  Class 1: Precision 0.943  Recall 0.943  F1 0.943
+  Class 2: Precision 0.818  Recall 0.847  F1 0.832
+  Class 3: Precision 0.927  Recall 0.970  F1 0.948
+  Class 4: Precision 0.888  Recall 0.858  F1 0.873
+  Class 5: Precision 0.781  Recall 0.848  F1 0.813
+  Class 6: Precision 0.830  Recall 0.722  F1 0.772
+  Class 7: Precision 0.850  Recall 0.838  F1 0.844
+  Class 8: Precision 0.968  Recall 0.962  F1 0.965
+  Class 9: Precision 0.932  Recall 0.983  F1 0.957
+
+
+Epoch 75:
+  Train Loss: 0.0268 | Train Acc: 99.10%
+  Val Loss:   0.8138 | Val Acc:   88.72%
+  Precision:  0.8891 | Recall: 0.8872 | F1: 0.8867
+
+  Class 0: Precision 0.860  Recall 0.872  F1 0.866
+  Class 1: Precision 0.933  Recall 0.957  F1 0.945
+  Class 2: Precision 0.904  Recall 0.773  F1 0.834
+  Class 3: Precision 0.941  Recall 0.958  F1 0.950
+  Class 4: Precision 0.876  Recall 0.887  F1 0.882
+  Class 5: Precision 0.754  Recall 0.882  F1 0.813
+  Class 6: Precision 0.823  Recall 0.722  F1 0.769
+  Class 7: Precision 0.857  Recall 0.902  F1 0.879
+  Class 8: Precision 0.975  Recall 0.960  F1 0.967
+  Class 9: Precision 0.966  Recall 0.960  F1 0.963
+
+
+Epoch 76:
+  Train Loss: 0.0259 | Train Acc: 99.13%
+  Val Loss:   0.9034 | Val Acc:   87.38%
+  Precision:  0.8745 | Recall: 0.8738 | F1: 0.8724
+
+  Class 0: Precision 0.828  Recall 0.858  F1 0.843
+  Class 1: Precision 0.905  Recall 0.967  F1 0.935
+  Class 2: Precision 0.867  Recall 0.790  F1 0.827
+  Class 3: Precision 0.915  Recall 0.972  F1 0.943
+  Class 4: Precision 0.850  Recall 0.860  F1 0.855
+  Class 5: Precision 0.754  Recall 0.870  F1 0.808
+  Class 6: Precision 0.836  Recall 0.682  F1 0.751
+  Class 7: Precision 0.875  Recall 0.805  F1 0.839
+  Class 8: Precision 0.960  Recall 0.962  F1 0.961
+  Class 9: Precision 0.954  Recall 0.973  F1 0.964
+
+
+Epoch 77:
+  Train Loss: 0.0302 | Train Acc: 99.10%
+  Val Loss:   0.7652 | Val Acc:   87.27%
+  Precision:  0.8741 | Recall: 0.8727 | F1: 0.8725
+
+  Class 0: Precision 0.882  Recall 0.818  F1 0.849
+  Class 1: Precision 0.965  Recall 0.910  F1 0.937
+  Class 2: Precision 0.839  Recall 0.872  F1 0.855
+  Class 3: Precision 0.941  Recall 0.965  F1 0.953
+  Class 4: Precision 0.847  Recall 0.875  F1 0.861
+  Class 5: Precision 0.823  Recall 0.722  F1 0.769
+  Class 6: Precision 0.734  Recall 0.787  F1 0.759
+  Class 7: Precision 0.817  Recall 0.870  F1 0.843
+  Class 8: Precision 0.924  Recall 0.973  F1 0.948
+  Class 9: Precision 0.969  Recall 0.935  F1 0.952
+
+
+Epoch 78:
+  Train Loss: 0.0267 | Train Acc: 99.14%
+  Val Loss:   0.8456 | Val Acc:   88.27%
+  Precision:  0.8846 | Recall: 0.8827 | F1: 0.8831
+
+  Class 0: Precision 0.890  Recall 0.860  F1 0.875
+  Class 1: Precision 0.942  Recall 0.953  F1 0.948
+  Class 2: Precision 0.845  Recall 0.852  F1 0.848
+  Class 3: Precision 0.937  Recall 0.972  F1 0.954
+  Class 4: Precision 0.902  Recall 0.840  F1 0.870
+  Class 5: Precision 0.813  Recall 0.767  F1 0.789
+  Class 6: Precision 0.725  Recall 0.825  F1 0.772
+  Class 7: Precision 0.861  Recall 0.853  F1 0.857
+  Class 8: Precision 0.957  Recall 0.965  F1 0.961
+  Class 9: Precision 0.976  Recall 0.940  F1 0.958
+
+
+Epoch 79:
+  Train Loss: 0.0259 | Train Acc: 99.19%
+  Val Loss:   0.8782 | Val Acc:   87.73%
+  Precision:  0.8777 | Recall: 0.8773 | F1: 0.8768
+
+  Class 0: Precision 0.875  Recall 0.838  F1 0.856
+  Class 1: Precision 0.923  Recall 0.960  F1 0.941
+  Class 2: Precision 0.817  Recall 0.840  F1 0.828
+  Class 3: Precision 0.920  Recall 0.975  F1 0.947
+  Class 4: Precision 0.894  Recall 0.812  F1 0.851
+  Class 5: Precision 0.827  Recall 0.797  F1 0.812
+  Class 6: Precision 0.773  Recall 0.823  F1 0.797
+  Class 7: Precision 0.884  Recall 0.813  F1 0.847
+  Class 8: Precision 0.904  Recall 0.977  F1 0.939
+  Class 9: Precision 0.961  Recall 0.938  F1 0.949
+
+
+Epoch 80:
+  Train Loss: 0.0278 | Train Acc: 99.05%
+  Val Loss:   0.8138 | Val Acc:   87.75%
+  Precision:  0.8800 | Recall: 0.8775 | F1: 0.8772
+
+  Class 0: Precision 0.853  Recall 0.853  F1 0.853
+  Class 1: Precision 0.953  Recall 0.947  F1 0.950
+  Class 2: Precision 0.831  Recall 0.858  F1 0.844
+  Class 3: Precision 0.918  Recall 0.970  F1 0.943
+  Class 4: Precision 0.884  Recall 0.853  F1 0.869
+  Class 5: Precision 0.857  Recall 0.688  F1 0.763
+  Class 6: Precision 0.713  Recall 0.833  F1 0.769
+  Class 7: Precision 0.856  Recall 0.855  F1 0.856
+  Class 8: Precision 0.962  Recall 0.962  F1 0.962
+  Class 9: Precision 0.973  Recall 0.955  F1 0.964
+
+
+Epoch 81:
+  Train Loss: 0.0223 | Train Acc: 99.22%
+  Val Loss:   0.8511 | Val Acc:   87.73%
+  Precision:  0.8825 | Recall: 0.8773 | F1: 0.8775
+
+  Class 0: Precision 0.827  Recall 0.902  F1 0.863
+  Class 1: Precision 0.950  Recall 0.943  F1 0.946
+  Class 2: Precision 0.865  Recall 0.803  F1 0.833
+  Class 3: Precision 0.925  Recall 0.968  F1 0.946
+  Class 4: Precision 0.923  Recall 0.822  F1 0.869
+  Class 5: Precision 0.700  Recall 0.897  F1 0.786
+  Class 6: Precision 0.822  Recall 0.698  F1 0.755
+  Class 7: Precision 0.881  Recall 0.840  F1 0.860
+  Class 8: Precision 0.963  Recall 0.963  F1 0.963
+  Class 9: Precision 0.969  Recall 0.937  F1 0.953
+
+
+Epoch 82:
+  Train Loss: 0.0249 | Train Acc: 99.16%
+  Val Loss:   0.8979 | Val Acc:   87.47%
+  Precision:  0.8759 | Recall: 0.8747 | F1: 0.8746
+
+  Class 0: Precision 0.807  Recall 0.885  F1 0.844
+  Class 1: Precision 0.928  Recall 0.927  F1 0.927
+  Class 2: Precision 0.829  Recall 0.835  F1 0.832
+  Class 3: Precision 0.924  Recall 0.977  F1 0.950
+  Class 4: Precision 0.901  Recall 0.833  F1 0.866
+  Class 5: Precision 0.771  Recall 0.823  F1 0.796
+  Class 6: Precision 0.784  Recall 0.752  F1 0.768
+  Class 7: Precision 0.894  Recall 0.812  F1 0.851
+  Class 8: Precision 0.955  Recall 0.950  F1 0.952
+  Class 9: Precision 0.966  Recall 0.953  F1 0.960
+
+
+Epoch 83:
+  Train Loss: 0.0266 | Train Acc: 99.15%
+  Val Loss:   0.7816 | Val Acc:   88.58%
+  Precision:  0.8865 | Recall: 0.8858 | F1: 0.8860
+
+  Class 0: Precision 0.869  Recall 0.840  F1 0.854
+  Class 1: Precision 0.937  Recall 0.948  F1 0.943
+  Class 2: Precision 0.834  Recall 0.855  F1 0.844
+  Class 3: Precision 0.947  Recall 0.960  F1 0.954
+  Class 4: Precision 0.909  Recall 0.867  F1 0.887
+  Class 5: Precision 0.813  Recall 0.795  F1 0.804
+  Class 6: Precision 0.770  Recall 0.818  F1 0.793
+  Class 7: Precision 0.863  Recall 0.858  F1 0.860
+  Class 8: Precision 0.969  Recall 0.947  F1 0.958
+  Class 9: Precision 0.954  Recall 0.970  F1 0.962
+
+Resuming from checkpoint: out/c10-w10-1536/epoch_83.pt
+
+Epoch 84:
+  Train Loss: 0.0226 | Train Acc: 99.25%
+  Val Loss:   0.9149 | Val Acc:   87.17%
+  Precision:  0.8738 | Recall: 0.8717 | F1: 0.8708
+
+  Class 0: Precision 0.818  Recall 0.893  F1 0.854
+  Class 1: Precision 0.946  Recall 0.942  F1 0.944
+  Class 2: Precision 0.858  Recall 0.793  F1 0.824
+  Class 3: Precision 0.938  Recall 0.965  F1 0.952
+  Class 4: Precision 0.837  Recall 0.847  F1 0.842
+  Class 5: Precision 0.727  Recall 0.870  F1 0.792
+  Class 6: Precision 0.822  Recall 0.662  F1 0.733
+  Class 7: Precision 0.887  Recall 0.827  F1 0.856
+  Class 8: Precision 0.941  Recall 0.963  F1 0.952
+  Class 9: Precision 0.963  Recall 0.955  F1 0.959
+
+
+Epoch 85:
+  Train Loss: 0.0238 | Train Acc: 99.19%
+  Val Loss:   0.7604 | Val Acc:   87.82%
+  Precision:  0.8795 | Recall: 0.8782 | F1: 0.8783
+
+  Class 0: Precision 0.869  Recall 0.862  F1 0.865
+  Class 1: Precision 0.947  Recall 0.945  F1 0.946
+  Class 2: Precision 0.807  Recall 0.850  F1 0.828
+  Class 3: Precision 0.935  Recall 0.953  F1 0.944
+  Class 4: Precision 0.904  Recall 0.848  F1 0.875
+  Class 5: Precision 0.813  Recall 0.777  F1 0.795
+  Class 6: Precision 0.735  Recall 0.805  F1 0.768
+  Class 7: Precision 0.881  Recall 0.812  F1 0.845
+  Class 8: Precision 0.940  Recall 0.973  F1 0.957
+  Class 9: Precision 0.965  Recall 0.957  F1 0.961
+
+
+Epoch 86:
+  Train Loss: 0.0228 | Train Acc: 99.23%
+  Val Loss:   0.7769 | Val Acc:   87.77%
+  Precision:  0.8784 | Recall: 0.8777 | F1: 0.8771
+
+  Class 0: Precision 0.894  Recall 0.833  F1 0.863
+  Class 1: Precision 0.961  Recall 0.938  F1 0.949
+  Class 2: Precision 0.864  Recall 0.750  F1 0.803
+  Class 3: Precision 0.908  Recall 0.987  F1 0.946
+  Class 4: Precision 0.882  Recall 0.858  F1 0.870
+  Class 5: Precision 0.763  Recall 0.837  F1 0.798
+  Class 6: Precision 0.773  Recall 0.765  F1 0.769
+  Class 7: Precision 0.833  Recall 0.865  F1 0.849
+  Class 8: Precision 0.949  Recall 0.970  F1 0.960
+  Class 9: Precision 0.957  Recall 0.973  F1 0.965
+
+
+Epoch 87:
+  Train Loss: 0.0210 | Train Acc: 99.31%
+  Val Loss:   0.8552 | Val Acc:   88.23%
+  Precision:  0.8833 | Recall: 0.8823 | F1: 0.8820
+
+  Class 0: Precision 0.898  Recall 0.833  F1 0.864
+  Class 1: Precision 0.935  Recall 0.962  F1 0.948
+  Class 2: Precision 0.848  Recall 0.825  F1 0.836
+  Class 3: Precision 0.941  Recall 0.965  F1 0.953
+  Class 4: Precision 0.905  Recall 0.845  F1 0.874
+  Class 5: Precision 0.826  Recall 0.752  F1 0.787
+  Class 6: Precision 0.744  Recall 0.840  F1 0.789
+  Class 7: Precision 0.850  Recall 0.872  F1 0.861
+  Class 8: Precision 0.928  Recall 0.963  F1 0.945
+  Class 9: Precision 0.957  Recall 0.967  F1 0.962
+
+
+Epoch 88:
+  Train Loss: 0.0230 | Train Acc: 99.27%
+  Val Loss:   0.9428 | Val Acc:   86.38%
+  Precision:  0.8679 | Recall: 0.8638 | F1: 0.8639
+
+  Class 0: Precision 0.791  Recall 0.885  F1 0.836
+  Class 1: Precision 0.962  Recall 0.925  F1 0.943
+  Class 2: Precision 0.846  Recall 0.777  F1 0.810
+  Class 3: Precision 0.917  Recall 0.953  F1 0.935
+  Class 4: Precision 0.909  Recall 0.780  F1 0.839
+  Class 5: Precision 0.725  Recall 0.867  F1 0.790
+  Class 6: Precision 0.795  Recall 0.735  F1 0.764
+  Class 7: Precision 0.875  Recall 0.828  F1 0.851
+  Class 8: Precision 0.887  Recall 0.963  F1 0.923
+  Class 9: Precision 0.974  Recall 0.925  F1 0.949
+
+
+Epoch 89:
+  Train Loss: 0.0219 | Train Acc: 99.27%
+  Val Loss:   0.7310 | Val Acc:   88.40%
+  Precision:  0.8846 | Recall: 0.8840 | F1: 0.8841
+
+  Class 0: Precision 0.846  Recall 0.890  F1 0.868
+  Class 1: Precision 0.954  Recall 0.940  F1 0.947
+  Class 2: Precision 0.852  Recall 0.807  F1 0.829
+  Class 3: Precision 0.940  Recall 0.970  F1 0.955
+  Class 4: Precision 0.887  Recall 0.863  F1 0.875
+  Class 5: Precision 0.784  Recall 0.798  F1 0.791
+  Class 6: Precision 0.768  Recall 0.785  F1 0.777
+  Class 7: Precision 0.870  Recall 0.868  F1 0.869
+  Class 8: Precision 0.975  Recall 0.965  F1 0.970
+  Class 9: Precision 0.969  Recall 0.953  F1 0.961
+
+
+Epoch 90:
+  Train Loss: 0.0217 | Train Acc: 99.31%
+  Val Loss:   0.8042 | Val Acc:   87.70%
+  Precision:  0.8789 | Recall: 0.8770 | F1: 0.8772
+
+  Class 0: Precision 0.876  Recall 0.860  F1 0.868
+  Class 1: Precision 0.942  Recall 0.942  F1 0.942
+  Class 2: Precision 0.835  Recall 0.808  F1 0.821
+  Class 3: Precision 0.931  Recall 0.973  F1 0.952
+  Class 4: Precision 0.900  Recall 0.825  F1 0.861
+  Class 5: Precision 0.739  Recall 0.860  F1 0.795
+  Class 6: Precision 0.792  Recall 0.748  F1 0.769
+  Class 7: Precision 0.848  Recall 0.855  F1 0.851
+  Class 8: Precision 0.957  Recall 0.960  F1 0.958
+  Class 9: Precision 0.969  Recall 0.938  F1 0.953
+
+
+Epoch 91:
+  Train Loss: 0.0226 | Train Acc: 99.24%
+  Val Loss:   0.7755 | Val Acc:   87.83%
+  Precision:  0.8799 | Recall: 0.8783 | F1: 0.8787
+
+  Class 0: Precision 0.863  Recall 0.858  F1 0.860
+  Class 1: Precision 0.948  Recall 0.950  F1 0.949
+  Class 2: Precision 0.808  Recall 0.860  F1 0.833
+  Class 3: Precision 0.946  Recall 0.943  F1 0.945
+  Class 4: Precision 0.911  Recall 0.832  F1 0.869
+  Class 5: Precision 0.771  Recall 0.808  F1 0.789
+  Class 6: Precision 0.764  Recall 0.792  F1 0.777
+  Class 7: Precision 0.877  Recall 0.817  F1 0.846
+  Class 8: Precision 0.951  Recall 0.970  F1 0.960
+  Class 9: Precision 0.961  Recall 0.953  F1 0.957
+
+
+Epoch 92:
+  Train Loss: 0.0198 | Train Acc: 99.34%
+  Val Loss:   0.8343 | Val Acc:   88.35%
+  Precision:  0.8849 | Recall: 0.8835 | F1: 0.8834
+
+  Class 0: Precision 0.873  Recall 0.868  F1 0.871
+  Class 1: Precision 0.939  Recall 0.957  F1 0.948
+  Class 2: Precision 0.847  Recall 0.828  F1 0.837
+  Class 3: Precision 0.940  Recall 0.972  F1 0.956
+  Class 4: Precision 0.901  Recall 0.865  F1 0.883
+  Class 5: Precision 0.735  Recall 0.855  F1 0.790
+  Class 6: Precision 0.803  Recall 0.740  F1 0.770
+  Class 7: Precision 0.881  Recall 0.815  F1 0.847
+  Class 8: Precision 0.965  Recall 0.970  F1 0.968
+  Class 9: Precision 0.965  Recall 0.965  F1 0.965
+
+
+Epoch 93:
+  Train Loss: 0.0213 | Train Acc: 99.29%
+  Val Loss:   0.8529 | Val Acc:   87.30%
+  Precision:  0.8743 | Recall: 0.8730 | F1: 0.8729
+
+  Class 0: Precision 0.899  Recall 0.832  F1 0.864
+  Class 1: Precision 0.927  Recall 0.950  F1 0.938
+  Class 2: Precision 0.843  Recall 0.822  F1 0.832
+  Class 3: Precision 0.927  Recall 0.947  F1 0.937
+  Class 4: Precision 0.814  Recall 0.888  F1 0.849
+  Class 5: Precision 0.756  Recall 0.820  F1 0.787
+  Class 6: Precision 0.785  Recall 0.747  F1 0.765
+  Class 7: Precision 0.884  Recall 0.827  F1 0.854
+  Class 8: Precision 0.941  Recall 0.978  F1 0.959
+  Class 9: Precision 0.968  Recall 0.920  F1 0.944
+
+
+Epoch 94:
+  Train Loss: 0.0187 | Train Acc: 99.34%
+  Val Loss:   0.8026 | Val Acc:   88.48%
+  Precision:  0.8855 | Recall: 0.8848 | F1: 0.8846
+
+  Class 0: Precision 0.857  Recall 0.877  F1 0.867
+  Class 1: Precision 0.958  Recall 0.955  F1 0.957
+  Class 2: Precision 0.867  Recall 0.815  F1 0.840
+  Class 3: Precision 0.955  Recall 0.955  F1 0.955
+  Class 4: Precision 0.886  Recall 0.868  F1 0.877
+  Class 5: Precision 0.756  Recall 0.848  F1 0.800
+  Class 6: Precision 0.803  Recall 0.745  F1 0.773
+  Class 7: Precision 0.874  Recall 0.847  F1 0.860
+  Class 8: Precision 0.945  Recall 0.968  F1 0.956
+  Class 9: Precision 0.954  Recall 0.970  F1 0.962
+
+
+Epoch 95:
+  Train Loss: 0.0201 | Train Acc: 99.36%
+  Val Loss:   0.8676 | Val Acc:   87.90%
+  Precision:  0.8796 | Recall: 0.8790 | F1: 0.8784
+
+  Class 0: Precision 0.880  Recall 0.867  F1 0.873
+  Class 1: Precision 0.929  Recall 0.967  F1 0.948
+  Class 2: Precision 0.842  Recall 0.837  F1 0.839
+  Class 3: Precision 0.929  Recall 0.978  F1 0.953
+  Class 4: Precision 0.826  Recall 0.865  F1 0.845
+  Class 5: Precision 0.854  Recall 0.712  F1 0.776
+  Class 6: Precision 0.717  Recall 0.768  F1 0.742
+  Class 7: Precision 0.882  Recall 0.868  F1 0.875
+  Class 8: Precision 0.973  Recall 0.968  F1 0.971
+  Class 9: Precision 0.963  Recall 0.960  F1 0.962
+
+
+Epoch 96:
+  Train Loss: 0.0205 | Train Acc: 99.33%
+  Val Loss:   0.8129 | Val Acc:   87.45%
+  Precision:  0.8744 | Recall: 0.8745 | F1: 0.8740
+
+  Class 0: Precision 0.842  Recall 0.873  F1 0.858
+  Class 1: Precision 0.964  Recall 0.925  F1 0.944
+  Class 2: Precision 0.855  Recall 0.803  F1 0.828
+  Class 3: Precision 0.948  Recall 0.938  F1 0.943
+  Class 4: Precision 0.839  Recall 0.845  F1 0.842
+  Class 5: Precision 0.818  Recall 0.748  F1 0.782
+  Class 6: Precision 0.768  Recall 0.785  F1 0.777
+  Class 7: Precision 0.848  Recall 0.890  F1 0.868
+  Class 8: Precision 0.918  Recall 0.965  F1 0.941
+  Class 9: Precision 0.945  Recall 0.972  F1 0.958
+
+
+Epoch 97:
+  Train Loss: 0.0166 | Train Acc: 99.47%
+  Val Loss:   0.9035 | Val Acc:   87.18%
+  Precision:  0.8736 | Recall: 0.8718 | F1: 0.8715
+
+  Class 0: Precision 0.798  Recall 0.888  F1 0.841
+  Class 1: Precision 0.968  Recall 0.903  F1 0.934
+  Class 2: Precision 0.881  Recall 0.753  F1 0.812
+  Class 3: Precision 0.918  Recall 0.968  F1 0.942
+  Class 4: Precision 0.869  Recall 0.848  F1 0.858
+  Class 5: Precision 0.762  Recall 0.822  F1 0.791
+  Class 6: Precision 0.787  Recall 0.728  F1 0.757
+  Class 7: Precision 0.833  Recall 0.883  F1 0.858
+  Class 8: Precision 0.955  Recall 0.965  F1 0.960
+  Class 9: Precision 0.965  Recall 0.958  F1 0.962
+
+
+Epoch 98:
+  Train Loss: 0.0209 | Train Acc: 99.34%
+  Val Loss:   0.7701 | Val Acc:   87.95%
+  Precision:  0.8793 | Recall: 0.8795 | F1: 0.8791
+
+  Class 0: Precision 0.877  Recall 0.867  F1 0.872
+  Class 1: Precision 0.964  Recall 0.935  F1 0.949
+  Class 2: Precision 0.849  Recall 0.815  F1 0.832
+  Class 3: Precision 0.922  Recall 0.970  F1 0.946
+  Class 4: Precision 0.835  Recall 0.893  F1 0.863
+  Class 5: Precision 0.793  Recall 0.790  F1 0.791
+  Class 6: Precision 0.765  Recall 0.755  F1 0.760
+  Class 7: Precision 0.879  Recall 0.833  F1 0.855
+  Class 8: Precision 0.956  Recall 0.977  F1 0.966
+  Class 9: Precision 0.954  Recall 0.960  F1 0.957
+
+
+Epoch 99:
+  Train Loss: 0.0183 | Train Acc: 99.41%
+  Val Loss:   0.8828 | Val Acc:   88.10%
+  Precision:  0.8820 | Recall: 0.8810 | F1: 0.8814
+
+  Class 0: Precision 0.862  Recall 0.863  F1 0.863
+  Class 1: Precision 0.955  Recall 0.920  F1 0.937
+  Class 2: Precision 0.859  Recall 0.825  F1 0.842
+  Class 3: Precision 0.953  Recall 0.952  F1 0.952
+  Class 4: Precision 0.868  Recall 0.868  F1 0.868
+  Class 5: Precision 0.784  Recall 0.822  F1 0.802
+  Class 6: Precision 0.773  Recall 0.783  F1 0.778
+  Class 7: Precision 0.841  Recall 0.865  F1 0.853
+  Class 8: Precision 0.962  Recall 0.965  F1 0.963
+  Class 9: Precision 0.963  Recall 0.947  F1 0.955
+
+
+Epoch 100:
+  Train Loss: 0.0189 | Train Acc: 99.37%
+  Val Loss:   0.7846 | Val Acc:   88.32%
+  Precision:  0.8847 | Recall: 0.8832 | F1: 0.8834
+
+  Class 0: Precision 0.897  Recall 0.855  F1 0.875
+  Class 1: Precision 0.947  Recall 0.952  F1 0.949
+  Class 2: Precision 0.820  Recall 0.842  F1 0.831
+  Class 3: Precision 0.941  Recall 0.953  F1 0.947
+  Class 4: Precision 0.919  Recall 0.857  F1 0.887
+  Class 5: Precision 0.800  Recall 0.768  F1 0.784
+  Class 6: Precision 0.739  Recall 0.825  F1 0.780
+  Class 7: Precision 0.869  Recall 0.843  F1 0.856
+  Class 8: Precision 0.953  Recall 0.970  F1 0.961
+  Class 9: Precision 0.962  Recall 0.967  F1 0.964
+
