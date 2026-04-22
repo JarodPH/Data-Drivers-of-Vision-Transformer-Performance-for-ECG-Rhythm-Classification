@@ -1,0 +1,915 @@
+[2026-04-15 20:23:48 patch16_win24] (main.py 449): INFO AMP_ENABLE: true
+AMP_OPT_LEVEL: ''
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 8
+  CACHE_MODE: part
+  DATASET: imagenet
+  DATA_PATH: swin-images-c04-w10-1536-12k
+  IMG_SIZE: 1536
+  INTERPOLATION: bicubic
+  MASK_PATCH_SIZE: 16
+  MASK_RATIO: 0.6
+  NUM_WORKERS: 1
+  PIN_MEMORY: true
+  ZIP_MODE: false
+ENABLE_AMP: false
+EVAL_MODE: true
+FUSED_LAYERNORM: false
+FUSED_WINDOW_PROCESS: false
+LOCAL_RANK: 1
+MODEL:
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  LABEL_SMOOTHING: 0.1
+  NAME: patch16_win24
+  NUM_CLASSES: 4
+  PRETRAINED: ''
+  RESUME: out/patch16_win24/12c04w10/ckpt_epoch_99.pth
+  SIMMIM:
+    NORM_TARGET:
+      ENABLE: false
+      PATCH_SIZE: 47
+  SWIN:
+    APE: false
+    DEPTHS:
+    - 2
+    - 2
+    - 6
+    - 2
+    EMBED_DIM: 96
+    IN_CHANS: 3
+    MLP_RATIO: 4.0
+    NUM_HEADS:
+    - 3
+    - 6
+    - 12
+    - 24
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    QKV_BIAS: true
+    QK_SCALE: null
+    WINDOW_SIZE: 7
+  SWINV2:
+    APE: false
+    DEPTHS:
+    - 2
+    - 2
+    - 18
+    - 2
+    EMBED_DIM: 128
+    IN_CHANS: 3
+    MLP_RATIO: 4.0
+    NUM_HEADS:
+    - 4
+    - 8
+    - 16
+    - 32
+    PATCH_NORM: true
+    PATCH_SIZE: 16
+    PRETRAINED_WINDOW_SIZES:
+    - 0
+    - 0
+    - 0
+    - 0
+    QKV_BIAS: true
+    WINDOW_SIZE: 24
+  SWIN_MLP:
+    APE: false
+    DEPTHS:
+    - 2
+    - 2
+    - 6
+    - 2
+    EMBED_DIM: 96
+    IN_CHANS: 3
+    MLP_RATIO: 4.0
+    NUM_HEADS:
+    - 3
+    - 6
+    - 12
+    - 24
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    WINDOW_SIZE: 7
+  SWIN_MOE:
+    APE: false
+    AUX_LOSS_WEIGHT: 0.01
+    CAPACITY_FACTOR: 1.25
+    COSINE_ROUTER: false
+    COSINE_ROUTER_DIM: 256
+    COSINE_ROUTER_INIT_T: 0.5
+    DEPTHS:
+    - 2
+    - 2
+    - 6
+    - 2
+    EMBED_DIM: 96
+    GATE_NOISE: 1.0
+    INIT_STD: 0.02
+    IN_CHANS: 3
+    IS_GSHARD_LOSS: false
+    MLP_FC2_BIAS: true
+    MLP_RATIO: 4.0
+    MOE_BLOCKS:
+    - - -1
+    - - -1
+    - - -1
+    - - -1
+    MOE_DROP: 0.0
+    NORMALIZE_GATE: false
+    NUM_HEADS:
+    - 3
+    - 6
+    - 12
+    - 24
+    NUM_LOCAL_EXPERTS: 1
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    PRETRAINED_WINDOW_SIZES:
+    - 0
+    - 0
+    - 0
+    - 0
+    QKV_BIAS: true
+    QK_SCALE: null
+    TOP_VALUE: 1
+    USE_BPR: true
+    WINDOW_SIZE: 7
+  TYPE: swinv2
+OUTPUT: out/eval/patch16_win24/12c04w10
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: 12c04w10
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 32
+  AUTO_RESUME: true
+  BASE_LR: 0.0002
+  CLIP_GRAD: 5.0
+  EPOCHS: 2000
+  LAYER_DECAY: 1.0
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    GAMMA: 0.1
+    MULTISTEPS: []
+    NAME: cosine
+    WARMUP_PREFIX: true
+  MIN_LR: 0.0001
+  MOE:
+    SAVE_MASTER: false
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 1
+  WARMUP_LR: 0.0002
+  WEIGHT_DECAY: 0.0001
+
+[2026-04-15 20:23:48 patch16_win24] (main.py 450): INFO {"cfg": "configs/swinv2/custom/swinv2_base_patch16_window24_1536.yaml", "opts": null, "batch_size": 8, "data_path": "swin-images-c04-w10-1536-12k", "zip": false, "cache_mode": "part", "pretrained": null, "resume": "out/patch16_win24/12c04w10/ckpt_epoch_99.pth", "accumulation_steps": 32, "use_checkpoint": false, "disable_amp": false, "amp_opt_level": null, "output": "out/eval/", "tag": "12c04w10", "eval": true, "throughput": false, "local_rank": 1, "fused_window_process": false, "fused_layernorm": false, "optim": null}
+[2026-04-15 20:23:49 patch16_win24] (main.py 93): INFO Creating model:swinv2/patch16_win24
+[2026-04-15 20:23:51 patch16_win24] (main.py 95): INFO SwinTransformerV2(
+  (patch_embed): PatchEmbed(
+    (proj): Conv2d(3, 128, kernel_size=(16, 16), stride=(16, 16))
+    (norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+  )
+  (pos_drop): Dropout(p=0.0, inplace=False)
+  (layers): ModuleList(
+    (0): BasicLayer(
+      dim=128, input_resolution=(96, 96), depth=2
+      (blocks): ModuleList(
+        (0): SwinTransformerBlock(
+          dim=128, input_resolution=(96, 96), num_heads=4, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=128, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=4
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=4, bias=False)
+            )
+            (qkv): Linear(in_features=128, out_features=384, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=128, out_features=128, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): Identity()
+          (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=128, out_features=512, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=512, out_features=128, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): SwinTransformerBlock(
+          dim=128, input_resolution=(96, 96), num_heads=4, window_size=24, shift_size=12, mlp_ratio=4.0
+          (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=128, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=4
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=4, bias=False)
+            )
+            (qkv): Linear(in_features=128, out_features=384, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=128, out_features=128, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=128, out_features=512, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=512, out_features=128, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): PatchMerging(
+        input_resolution=(96, 96), dim=128
+        (reduction): Linear(in_features=512, out_features=256, bias=False)
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (1): BasicLayer(
+      dim=256, input_resolution=(48, 48), depth=2
+      (blocks): ModuleList(
+        (0): SwinTransformerBlock(
+          dim=256, input_resolution=(48, 48), num_heads=8, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=256, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=8
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=8, bias=False)
+            )
+            (qkv): Linear(in_features=256, out_features=768, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=256, out_features=256, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=256, out_features=1024, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=1024, out_features=256, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): SwinTransformerBlock(
+          dim=256, input_resolution=(48, 48), num_heads=8, window_size=24, shift_size=12, mlp_ratio=4.0
+          (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=256, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=8
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=8, bias=False)
+            )
+            (qkv): Linear(in_features=256, out_features=768, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=256, out_features=256, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=256, out_features=1024, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=1024, out_features=256, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): PatchMerging(
+        input_resolution=(48, 48), dim=256
+        (reduction): Linear(in_features=1024, out_features=512, bias=False)
+        (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (2): BasicLayer(
+      dim=512, input_resolution=(24, 24), depth=18
+      (blocks): ModuleList(
+        (0): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (2): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (3): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (4): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (5): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (6): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (7): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (8): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (9): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (10): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (11): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (12): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (13): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (14): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (15): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (16): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (17): SwinTransformerBlock(
+          dim=512, input_resolution=(24, 24), num_heads=16, window_size=24, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=512, window_size=(24, 24), pretrained_window_size=(0, 0), num_heads=16
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=16, bias=False)
+            )
+            (qkv): Linear(in_features=512, out_features=1536, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=512, out_features=512, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=512, out_features=2048, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=2048, out_features=512, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): PatchMerging(
+        input_resolution=(24, 24), dim=512
+        (reduction): Linear(in_features=2048, out_features=1024, bias=False)
+        (norm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (3): BasicLayer(
+      dim=1024, input_resolution=(12, 12), depth=2
+      (blocks): ModuleList(
+        (0): SwinTransformerBlock(
+          dim=1024, input_resolution=(12, 12), num_heads=32, window_size=12, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=1024, window_size=(12, 12), pretrained_window_size=(0, 0), num_heads=32
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=32, bias=False)
+            )
+            (qkv): Linear(in_features=1024, out_features=3072, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): SwinTransformerBlock(
+          dim=1024, input_resolution=(12, 12), num_heads=32, window_size=12, shift_size=0, mlp_ratio=4.0
+          (norm1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          (attn): WindowAttention(
+            dim=1024, window_size=(12, 12), pretrained_window_size=(0, 0), num_heads=32
+            (cpb_mlp): Sequential(
+              (0): Linear(in_features=2, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Linear(in_features=512, out_features=32, bias=False)
+            )
+            (qkv): Linear(in_features=1024, out_features=3072, bias=False)
+            (attn_drop): Dropout(p=0.0, inplace=False)
+            (proj): Linear(in_features=1024, out_features=1024, bias=True)
+            (proj_drop): Dropout(p=0.0, inplace=False)
+            (softmax): Softmax(dim=-1)
+          )
+          (drop_path): DropPath()
+          (norm2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          (mlp): Mlp(
+            (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+            (act): GELU()
+            (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+            (drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+    )
+  )
+  (norm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+  (avgpool): AdaptiveAvgPool1d(output_size=1)
+  (head): Linear(in_features=1024, out_features=1000, bias=True)
+)
+[2026-04-15 20:23:51 patch16_win24] (main.py 98): INFO number of params: 88010976
+[2026-04-15 20:23:51 patch16_win24] (main.py 101): INFO number of GFLOPs: 55.597686784
+[2026-04-15 20:23:52 patch16_win24] (main.py 135): INFO no checkpoint found in out/eval/patch16_win24/12c04w10, ignoring auto resume
+[2026-04-15 20:23:52 patch16_win24] (utils.py 19): INFO ==============> Resuming form out/patch16_win24/12c04w10/ckpt_epoch_99.pth....................
+[2026-04-15 20:24:03 patch16_win24] (utils.py 26): INFO <All keys matched successfully>
+[2026-04-15 20:24:13 patch16_win24] (main.py 330): INFO Test: [0/625]	Time 10.266 (10.266)	Loss 0.3486 (0.3486)	Acc@1 93.750 (93.750)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:24:41 patch16_win24] (main.py 330): INFO Test: [10/625]	Time 2.720 (3.394)	Loss 0.3413 (0.4589)	Acc@1 93.750 (90.909)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:25:08 patch16_win24] (main.py 330): INFO Test: [20/625]	Time 2.666 (3.101)	Loss 0.3042 (0.3974)	Acc@1 93.750 (93.155)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:25:44 patch16_win24] (main.py 330): INFO Test: [30/625]	Time 3.839 (3.246)	Loss 0.4863 (0.4301)	Acc@1 87.500 (91.331)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:26:26 patch16_win24] (main.py 330): INFO Test: [40/625]	Time 4.965 (3.487)	Loss 0.4778 (0.4264)	Acc@1 93.750 (91.616)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:27:12 patch16_win24] (main.py 330): INFO Test: [50/625]	Time 4.453 (3.701)	Loss 0.3945 (0.4322)	Acc@1 93.750 (91.054)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:27:56 patch16_win24] (main.py 330): INFO Test: [60/625]	Time 4.010 (3.814)	Loss 0.6206 (0.4314)	Acc@1 81.250 (91.189)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:28:42 patch16_win24] (main.py 330): INFO Test: [70/625]	Time 4.387 (3.922)	Loss 0.3254 (0.4209)	Acc@1 93.750 (91.637)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:29:28 patch16_win24] (main.py 330): INFO Test: [80/625]	Time 5.096 (4.004)	Loss 0.4128 (0.4169)	Acc@1 81.250 (91.435)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:30:13 patch16_win24] (main.py 330): INFO Test: [90/625]	Time 4.447 (4.064)	Loss 0.4758 (0.4095)	Acc@1 87.500 (91.621)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:30:59 patch16_win24] (main.py 330): INFO Test: [100/625]	Time 4.240 (4.115)	Loss 0.6265 (0.4142)	Acc@1 87.500 (91.522)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:31:44 patch16_win24] (main.py 330): INFO Test: [110/625]	Time 4.602 (4.152)	Loss 0.3762 (0.4129)	Acc@1 93.750 (91.498)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:32:29 patch16_win24] (main.py 330): INFO Test: [120/625]	Time 5.002 (4.178)	Loss 0.5322 (0.4158)	Acc@1 87.500 (91.374)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:33:15 patch16_win24] (main.py 330): INFO Test: [130/625]	Time 4.521 (4.210)	Loss 0.3203 (0.4139)	Acc@1 93.750 (91.269)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:34:01 patch16_win24] (main.py 330): INFO Test: [140/625]	Time 5.014 (4.238)	Loss 0.2522 (0.4113)	Acc@1 100.000 (91.445)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:34:46 patch16_win24] (main.py 330): INFO Test: [150/625]	Time 3.857 (4.257)	Loss 0.4355 (0.4133)	Acc@1 81.250 (91.225)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:35:33 patch16_win24] (main.py 330): INFO Test: [160/625]	Time 4.447 (4.287)	Loss 0.2195 (0.4130)	Acc@1 100.000 (91.110)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:36:19 patch16_win24] (main.py 330): INFO Test: [170/625]	Time 4.863 (4.304)	Loss 0.2043 (0.4029)	Acc@1 100.000 (91.520)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:37:03 patch16_win24] (main.py 330): INFO Test: [180/625]	Time 4.439 (4.306)	Loss 0.3667 (0.3976)	Acc@1 93.750 (91.747)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:37:48 patch16_win24] (main.py 330): INFO Test: [190/625]	Time 4.109 (4.321)	Loss 0.2141 (0.3917)	Acc@1 100.000 (91.950)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:38:32 patch16_win24] (main.py 330): INFO Test: [200/625]	Time 3.909 (4.323)	Loss 0.3887 (0.3887)	Acc@1 87.500 (91.978)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:39:16 patch16_win24] (main.py 330): INFO Test: [210/625]	Time 4.632 (4.326)	Loss 0.4507 (0.3862)	Acc@1 93.750 (92.091)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:40:01 patch16_win24] (main.py 330): INFO Test: [220/625]	Time 4.278 (4.332)	Loss 0.4951 (0.3829)	Acc@1 87.500 (92.223)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:40:46 patch16_win24] (main.py 330): INFO Test: [230/625]	Time 4.640 (4.340)	Loss 0.2229 (0.3787)	Acc@1 100.000 (92.370)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:41:32 patch16_win24] (main.py 330): INFO Test: [240/625]	Time 4.353 (4.351)	Loss 0.2158 (0.3735)	Acc@1 100.000 (92.557)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:42:17 patch16_win24] (main.py 330): INFO Test: [250/625]	Time 4.844 (4.359)	Loss 0.2085 (0.3704)	Acc@1 100.000 (92.654)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:43:02 patch16_win24] (main.py 330): INFO Test: [260/625]	Time 4.701 (4.362)	Loss 0.2808 (0.3660)	Acc@1 93.750 (92.816)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:43:47 patch16_win24] (main.py 330): INFO Test: [270/625]	Time 5.418 (4.368)	Loss 0.3110 (0.3637)	Acc@1 100.000 (92.897)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:44:31 patch16_win24] (main.py 330): INFO Test: [280/625]	Time 4.370 (4.371)	Loss 0.5850 (0.3618)	Acc@1 75.000 (92.905)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:45:17 patch16_win24] (main.py 330): INFO Test: [290/625]	Time 4.665 (4.377)	Loss 0.3066 (0.3594)	Acc@1 93.750 (92.977)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:46:01 patch16_win24] (main.py 330): INFO Test: [300/625]	Time 4.358 (4.379)	Loss 0.2292 (0.3576)	Acc@1 100.000 (92.982)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:46:49 patch16_win24] (main.py 330): INFO Test: [310/625]	Time 4.761 (4.391)	Loss 0.2294 (0.3569)	Acc@1 100.000 (92.966)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:47:34 patch16_win24] (main.py 330): INFO Test: [320/625]	Time 4.496 (4.394)	Loss 0.5366 (0.3598)	Acc@1 87.500 (92.796)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:48:20 patch16_win24] (main.py 330): INFO Test: [330/625]	Time 4.507 (4.401)	Loss 0.5352 (0.3626)	Acc@1 87.500 (92.655)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:49:05 patch16_win24] (main.py 330): INFO Test: [340/625]	Time 4.262 (4.403)	Loss 0.5073 (0.3666)	Acc@1 81.250 (92.504)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:49:48 patch16_win24] (main.py 330): INFO Test: [350/625]	Time 4.050 (4.402)	Loss 0.4436 (0.3709)	Acc@1 93.750 (92.308)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:50:34 patch16_win24] (main.py 330): INFO Test: [360/625]	Time 4.414 (4.407)	Loss 0.5254 (0.3757)	Acc@1 81.250 (92.071)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:51:19 patch16_win24] (main.py 330): INFO Test: [370/625]	Time 4.077 (4.410)	Loss 0.5908 (0.3813)	Acc@1 81.250 (91.728)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:52:07 patch16_win24] (main.py 330): INFO Test: [380/625]	Time 4.725 (4.419)	Loss 0.6030 (0.3874)	Acc@1 75.000 (91.371)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:52:52 patch16_win24] (main.py 330): INFO Test: [390/625]	Time 4.322 (4.422)	Loss 0.3154 (0.3896)	Acc@1 93.750 (91.240)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:53:36 patch16_win24] (main.py 330): INFO Test: [400/625]	Time 4.276 (4.421)	Loss 0.7129 (0.3951)	Acc@1 75.000 (90.976)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:54:22 patch16_win24] (main.py 330): INFO Test: [410/625]	Time 4.678 (4.425)	Loss 0.5933 (0.3984)	Acc@1 75.000 (90.800)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:55:08 patch16_win24] (main.py 330): INFO Test: [420/625]	Time 4.664 (4.429)	Loss 0.3906 (0.4021)	Acc@1 93.750 (90.618)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:55:53 patch16_win24] (main.py 330): INFO Test: [430/625]	Time 4.392 (4.431)	Loss 0.7168 (0.4076)	Acc@1 75.000 (90.357)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:56:39 patch16_win24] (main.py 330): INFO Test: [440/625]	Time 4.267 (4.434)	Loss 0.5293 (0.4112)	Acc@1 81.250 (90.164)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:57:24 patch16_win24] (main.py 330): INFO Test: [450/625]	Time 5.177 (4.436)	Loss 0.5532 (0.4172)	Acc@1 81.250 (89.856)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:58:11 patch16_win24] (main.py 330): INFO Test: [460/625]	Time 4.670 (4.441)	Loss 0.6870 (0.4222)	Acc@1 87.500 (89.601)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:58:56 patch16_win24] (main.py 330): INFO Test: [470/625]	Time 4.484 (4.443)	Loss 0.2632 (0.4255)	Acc@1 100.000 (89.411)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 20:59:42 patch16_win24] (main.py 330): INFO Test: [480/625]	Time 4.782 (4.446)	Loss 0.2522 (0.4225)	Acc@1 100.000 (89.592)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:00:27 patch16_win24] (main.py 330): INFO Test: [490/625]	Time 4.579 (4.447)	Loss 0.3374 (0.4194)	Acc@1 93.750 (89.791)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:01:13 patch16_win24] (main.py 330): INFO Test: [500/625]	Time 5.024 (4.451)	Loss 0.2451 (0.4166)	Acc@1 100.000 (89.958)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:01:58 patch16_win24] (main.py 330): INFO Test: [510/625]	Time 4.859 (4.452)	Loss 0.2812 (0.4140)	Acc@1 100.000 (90.093)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:02:43 patch16_win24] (main.py 330): INFO Test: [520/625]	Time 5.013 (4.452)	Loss 0.3772 (0.4112)	Acc@1 87.500 (90.247)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:03:27 patch16_win24] (main.py 330): INFO Test: [530/625]	Time 4.039 (4.452)	Loss 0.2554 (0.4086)	Acc@1 100.000 (90.395)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:04:12 patch16_win24] (main.py 330): INFO Test: [540/625]	Time 3.971 (4.452)	Loss 0.2817 (0.4060)	Acc@1 93.750 (90.538)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:04:58 patch16_win24] (main.py 330): INFO Test: [550/625]	Time 4.377 (4.455)	Loss 0.3030 (0.4034)	Acc@1 93.750 (90.676)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:05:42 patch16_win24] (main.py 330): INFO Test: [560/625]	Time 4.758 (4.454)	Loss 0.2859 (0.4009)	Acc@1 93.750 (90.809)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:06:28 patch16_win24] (main.py 330): INFO Test: [570/625]	Time 5.045 (4.456)	Loss 0.2979 (0.3987)	Acc@1 93.750 (90.915)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:07:13 patch16_win24] (main.py 330): INFO Test: [580/625]	Time 4.401 (4.458)	Loss 0.2622 (0.3969)	Acc@1 100.000 (90.985)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:08:00 patch16_win24] (main.py 330): INFO Test: [590/625]	Time 4.307 (4.461)	Loss 0.2627 (0.3946)	Acc@1 100.000 (91.117)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:08:43 patch16_win24] (main.py 330): INFO Test: [600/625]	Time 4.434 (4.460)	Loss 0.2439 (0.3925)	Acc@1 100.000 (91.233)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:09:28 patch16_win24] (main.py 330): INFO Test: [610/625]	Time 5.105 (4.459)	Loss 0.2717 (0.3909)	Acc@1 100.000 (91.346)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:10:13 patch16_win24] (main.py 330): INFO Test: [620/625]	Time 4.735 (4.460)	Loss 0.3613 (0.3893)	Acc@1 93.750 (91.435)	Acc@5 100.000 (100.000)	Mem 2471MB
+[2026-04-15 21:10:31 patch16_win24] (main.py 347): INFO  * Acc@1 91.470 Acc@5 100.000 Loss 0.3887 Precision 0.912 Recall 0.912 F1 0.912
+[2026-04-15 21:10:31 patch16_win24] (main.py 371): INFO Class 0: Accuracy 0.914 Precision 0.950 Recall 0.914 F1 0.931
+[2026-04-15 21:10:31 patch16_win24] (main.py 371): INFO Class 1: Accuracy 0.941 Precision 0.914 Recall 0.941 F1 0.927
+[2026-04-15 21:10:31 patch16_win24] (main.py 371): INFO Class 2: Accuracy 0.815 Precision 0.885 Recall 0.815 F1 0.849
+[2026-04-15 21:10:31 patch16_win24] (main.py 371): INFO Class 3: Accuracy 0.980 Precision 0.900 Recall 0.980 F1 0.938
+[2026-04-15 21:10:31 patch16_win24] (main.py 140): INFO Accuracy of the network on the 10000 test images: 91.5%
